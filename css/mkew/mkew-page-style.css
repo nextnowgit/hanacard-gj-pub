@@ -1,0 +1,11 @@
+/* type-certificate-list */
+.type-certificate-list .ui-radio-block {position:relative; min-height:92px;}
+.type-certificate-list .ui-radio-block .ui-label {padding:0;}
+.type-certificate-list .ui-radio-block .icon-gov {display:inline-block; position:absolute; top:12px; left:15px; width:40px; height:14px; background:url('../../images/mkew/logo-gov.png') no-repeat 0; background-size:100%;}
+.type-certificate-list .ui-radio-block .icon-court {display:inline-block; position:absolute; top:12px; left:15px; width:40px; height:14px; background:url('../../images/mkew/logo-court.png') no-repeat 0; background-size:100%;}
+
+.type-subscribe {text-align:center; padding-top:90px;}
+.type-subscribe .has-com-icon::after {margin-top:0; margin-bottom:20px;}
+.type-subscribe .type-icon-suggest::after {background-position:center top;}
+.type-subscribe .page-title {margin-bottom:14px;}
+.type-subscribe .ui-loading-block {margin:0 auto; }

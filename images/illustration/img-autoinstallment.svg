@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="182" height="100" viewBox="0 0 182 100">
+    <defs>
+        <linearGradient id="linear-gradient" y1=".5" x2="1" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#2f3140"/>
+            <stop offset="1" stop-color="#2f3140"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" y1=".5" x2="1" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#1a1b20"/>
+            <stop offset="1" stop-color="#2f3140"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" y1=".5" x2="1" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#3a3b46"/>
+            <stop offset="1" stop-color="#9fa1b2"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-4" x1=".21" y1="1.304" x2=".75" y2="-.308" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#484b63" stop-opacity=".2"/>
+            <stop offset="1" stop-color="#dadbe2" stop-opacity=".2"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-6" x1=".064" y1=".805" x2=".88" y2=".234" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#adafbe"/>
+            <stop offset="1" stop-color="#7d7e94"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-7" x1="-.014" y1=".786" x2=".948" y2=".251" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#a7a8bb"/>
+            <stop offset="1" stop-color="#a3a4b9"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-11" y1=".5" x2=".999" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#7d8098"/>
+            <stop offset="1" stop-color="#c2c4d8"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-12" x1=".5" y1="1" x2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#2f3140" stop-opacity=".102"/>
+            <stop offset="1" stop-color="#2f3140" stop-opacity=".502"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-14" x1="1" y1=".5" x2="0" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#7c8094"/>
+            <stop offset="1" stop-color="#484b63"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-16" x1=".373" y1=".761" x2=".627" y2=".239" gradientUnits="objectBoundingBox">
+            <stop offset=".27" stop-color="#9d9fb2"/>
+            <stop offset=".51" stop-color="#c4c6d8"/>
+            <stop offset=".76" stop-color="#babbcd"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-17" x1=".294" x2=".795" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#987af5"/>
+            <stop offset="1" stop-color="#5b3dbb"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-18" x1="1" y1=".579" x2="0" y2=".579" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#c9b8ff"/>
+            <stop offset="1" stop-color="#fff"/>
+        </linearGradient>
+        <style>
+            .cls-3{fill:#2f3140}.cls-5{fill:url(#linear-gradient)}.cls-10{fill:url(#linear-gradient-6)}.cls-11{fill:url(#linear-gradient-7)}.cls-13{fill:url(#linear-gradient-12)}.cls-14{fill:url(#linear-gradient-14)}
+        </style>
+    </defs>
+    <g id="img_autoinstallment" transform="translate(-158 -222)">
+        <g id="그룹_10949" data-name="그룹 10949" transform="translate(0 -8)" style="opacity:.24">
+            <ellipse id="타원_1315" data-name="타원 1315" class="cls-3" cx="59" cy="4.5" rx="59" ry="4.5" transform="translate(202 303.75)"/>
+            <ellipse id="타원_1647" data-name="타원 1647" cx="30" cy="5" rx="30" ry="5" transform="translate(173 308)" style="opacity:.5;fill:#2f3140"/>
+        </g>
+        <g id="그룹_10548" data-name="그룹 10548" transform="translate(-2 -17.25)">
+            <g id="그룹_10544" data-name="그룹 10544" transform="translate(0 26)">
+                <g id="그룹_10541" data-name="그룹 10541">
+                    <g id="그룹_10540" data-name="그룹 10540" transform="translate(16.227 17.092)">
+                        <g id="자동차_일러스트" data-name="자동차 일러스트" transform="translate(-36.273 175.909)">
+                            <g id="레이어_2" data-name="레이어 2">
+                                <path id="패스_11085" data-name="패스 11085" class="cls-3" d="M-603-81.5c0 8-4.92 14.5-11 14.5-1.8 0-6.5.43-8-.58-3.56-2.4-3-8.29-3-13.92 0-8 4.92-14.5 11-14.5s11 6.49 11 14.5z" transform="translate(910 169)"/>
+                                <ellipse id="타원_1591" data-name="타원 1591" class="cls-5" cx="11" cy="14.5" rx="11" ry="14.5" transform="translate(322 70)"/>
+                                <path id="패스_11086" data-name="패스 11086" class="cls-3" d="M-562-81.5c0 8-4.92 14.5-11 14.5-1.8 0-6.5.43-8-.58-3.56-2.4-3-8.29-3-13.92 0-8 4.92-14.5 11-14.5s11 6.49 11 14.5z" transform="translate(911 166)"/>
+                                <path id="패스_11087" data-name="패스 11087" class="cls-3" d="M-664.757-82c0 7.725-4.751 14-10.622 14-1.738 0-6.277.415-7.725-.56C-686.542-70.874-686-76.562-686-82c0-7.725 4.751-14 10.622-14s10.621 6.267 10.621 14z" transform="translate(911.757 167)"/>
+                                <path id="패스_11088" data-name="패스 11088" d="M-600-74h-66a28.33 28.33 0 0 1-10-1.82l-15.25-5.75a5.36 5.36 0 0 1-3.45-5.55c.57-5.83 2-16.69 5-24.82A15.64 15.64 0 0 1-674.95-122H-610s3 .1 10 4l42.11 23.35A5.59 5.59 0 0 1-555-89.7v9c0 2.7-1.89 4-4.53 4.59C-567-74.56-583.5-73.5-600-74z" transform="translate(911 164)" style="fill:#484b63"/>
+                                <path id="패스_11089" data-name="패스 11089" d="M-619-107h-52.41s-4.59 0-5.59-6l-1.36-6.13a2.36 2.36 0 0 1 .463-1.986 2.36 2.36 0 0 1 1.837-.884H-641z" transform="translate(911 164)" style="fill:url(#linear-gradient-2)"/>
+                                <path id="패스_11090" data-name="패스 11090" d="M-619-107h39l-23.26-13.49a11.11 11.11 0 0 0-5.59-1.51H-641z" transform="translate(911 164)" style="fill:url(#linear-gradient-3)"/>
+                                <path id="패스_11091" data-name="패스 11091" d="M-670-74h71s10-12.44-4-22.81c0 0-6-5.19-19-5.19h-57a31.34 31.34 0 0 1 9 28z" transform="translate(911 164)" style="fill:url(#linear-gradient-4)"/>
+                                <ellipse id="타원_1593" data-name="타원 1593" class="cls-5" cx="10.622" cy="14.002" rx="10.622" ry="14.002" transform="translate(220.928 71)"/>
+                                <ellipse id="타원_1594" data-name="타원 1594" class="cls-10" cx="6.759" cy="9.656" rx="6.759" ry="9.656" transform="translate(224.791 75.828)"/>
+                                <ellipse id="타원_1595" data-name="타원 1595" class="cls-11" cx="2.414" cy="4.345" rx="2.414" ry="4.345" transform="translate(229.619 80.656)"/>
+                                <ellipse id="타원_1596" data-name="타원 1596" class="cls-5" cx="11" cy="14.5" rx="11" ry="14.5" transform="translate(280 73)"/>
+                                <ellipse id="타원_1597" data-name="타원 1597" class="cls-10" cx="7" cy="10" rx="7" ry="10" transform="translate(284 78)"/>
+                                <ellipse id="타원_1598" data-name="타원 1598" class="cls-11" cx="2.5" cy="4.5" rx="2.5" ry="4.5" transform="translate(289 83)"/>
+                                <path id="패스_11093" data-name="패스 11093" d="M-557-94h-41a4 4 0 0 0-4 4 4 4 0 0 0 4 4h10.69a2.66 2.66 0 0 0 2.11-1l2-2.51a2.51 2.51 0 0 1 2-1h15.53a2.49 2.49 0 0 1 2 1l.77 1a4.93 4.93 0 0 0 3.94 2h4v-3.26A4.77 4.77 0 0 0-556-93z" transform="translate(911 164)" style="fill:url(#linear-gradient-11)"/>
+                                <path id="패스_11095" data-name="패스 11095" class="cls-13" d="M-671-99h8a1 1 0 0 1 1 1l-2 4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z" transform="translate(911 164)"/>
+                                <path id="패스_11096" data-name="패스 11096" class="cls-13" d="M-671-99h8a1 1 0 0 1 1 1l-2 4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z" transform="translate(937 164)"/>
+                                <rect id="사각형_12357" data-name="사각형 12357" class="cls-14" width="10" height="2" rx="1" transform="translate(239 65)"/>
+                                <rect id="사각형_12358" data-name="사각형 12358" class="cls-14" width="10" height="2" rx="1" transform="translate(265 65)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="그룹_10539" data-name="그룹 10539" transform="translate(-19.91 193)" style="opacity:.3">
+                    <g id="그룹_10538" data-name="그룹 10538" style="opacity:.6">
+                        <path id="패스_11092" data-name="패스 11092" d="M293.91 42H299l25.54 15h-4.93z" style="fill:url(#linear-gradient-16)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="그룹_10946" data-name="그룹 10946" transform="translate(2 -10)">
+            <rect id="사각형_13197" data-name="사각형 13197" width="56" height="38" rx="8" transform="translate(173 274)" style="fill:url(#linear-gradient-17)"/>
+            <rect id="사각형_13199" data-name="사각형 13199" width="10" height="8" rx="3" transform="translate(178 290)" style="opacity:.8;fill:url(#linear-gradient-18)"/>
+            <rect id="사각형_13200" data-name="사각형 13200" width="24" height="4" rx="1" transform="translate(199 280)" style="opacity:.2;fill:#fff"/>
+            <circle id="타원_1645" data-name="타원 1645" cx="4" cy="4" r="4" transform="translate(215 299)" style="fill:#fff"/>
+            <circle id="타원_1646" data-name="타원 1646" cx="4" cy="4" r="4" transform="translate(208 299)" style="fill:#f6f0a4"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,62 @@
+/* 22-03-29  라운지 메인 제휴쿠폰 롤링배너 수정 START */
+.event-cards .swiper-object ul.event-cards-list div.event-cards-img-area{margin: 5px 0 0 0 !important;}
+.event-cards .swiper-object ul.event-cards-list div.event-cards-info{padding: 10px 15px 15px 15px !important;}
+/* END */
+
+/* 22-04-04  이벤트 상세페이지 내 팝업 버튼 수정 START */
+.wcms-data .event-data .ui-button.header__button.header__button--close,
+.wcms-data .vip-event-data .ui-button.header__button.header__button--close {
+    background:#fff;
+}
+.wcms-data .event-data .layer-wrap .ui-buttons-list,
+.wcms-data .vip-event-data .layer-wrap .ui-buttons-list {
+    padding: 0;margin:0;
+}
+.wcms-data .event-data .layer-wrap .ui-buttons li,
+.wcms-data .vip-event-data .layer-wrap .ui-buttons li {
+    list-style: none;
+}
+.wcms-data .event-data .layer-wrap button,
+.wcms-data .vip-event-data .layer-wrap button,
+.wcms-data .event-data .layer-wrap [type='button'],
+.wcms-data .vip-event-data .layer-wrap [type='button'] {
+    border: none;color:var(--gray-70);
+}
+.wcms-data .event-data .layer-wrap .type-primary,
+.wcms-data .vip-event-data .layer-wrap .type-primary,
+.wcms-data .event-data .layer-wrap .type-vip,
+.wcms-data .vip-event-data .layer-wrap .type-vip {
+    color:#fff;
+}
+/* END */
+
+/* 22-04-25  임직원 일시한도 신청 */
+.staff-title {display:block;margin:0 -24px;padding:30px 24px 40px;background:#00a49d;}
+.staff-title .logo {display:block;margin-bottom:30px;}
+.staff-title .form-detail-title {color:#fff;}
+.staff-title .form-detail-title .title {position:relative;margin-top:27px;}
+.staff-title .form-detail-title .title:before {position:absolute;top:-12px;left:1px;display:inline-block;width:24px;height:2px;background:#fff;content:'';}
+/* END */
+
+/* 22-05-19 [s] */
+.header.type-white {padding:13px 22px 13px 24px}
+.header.type-white .header-title {text-align:center}
+.header.type-white .header-title .hanacard_ci{width:32.31vw;height:auto}
+.page-contents.staff {padding:30px 15px 13.59vw}
+.page-contents.staff .staff-visual {display:block;width:100%; margin:36px auto 0} 
+.page-contents.staff .staff-visual img {width:100%;height:auto}
+.page-contents.staff .staff-visual .hide {visibility:hidden;height:0;color:transparent;font-size:0}
+.page-contents.staff .basic-text {word-wrap:break-word;word-break:keep-all;font-size:18px;line-height:1.44em;letter-spacing:-0.6px;font-weight:500;font-style:normal}
+.page-contents.staff .basic-text .color-emp {color:#d40f0f}
+.page-contents.staff .form-item:not(:first-child) {margin-top:8.72vw}
+.page-contents.staff .form-list:not(:first-child) {margin-top:6.67vw;padding-left:2.31vw}
+.page-contents.staff .form-title .title {color:#000;font-size:16px; font-weight:600}
+.page-contents.staff .ui-input {height:47px;line-height:47px;font-size:21px;font-weight:400;border-bottom:1px solid #C0C0C0;color:#333}
+.page-contents.staff .ui-input::placeholder {color:#C8C8C8}
+.page-contents.staff .ui-label-text {font-size:16px;line-height:19px;color:#6E7D85;font-weight:600}
+.page-contents.staff + .page-buttons {padding:0 15px 30px;}
+.page-contents.staff + .page-buttons .ui-basic-button {font-size:18px;padding:0 8px;height:50px;line-height:50px;border-color:#13C9BE;background-color:#13C9BE}
+.layer-wrap--slide .staff .ui-layer__head .header {padding:64px 24px 10px;}
+.ui-layer.staff .header__title {text-align:center;font-size:24px;font-weight:700;}
+.ui-layer.staff .layer-contents p {text-align:center;font-size:16px;}
+ /* 22-05-19 [e] */

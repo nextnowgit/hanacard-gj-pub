@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="80" viewBox="0 0 130 80">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".294" x2=".795" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#5d6167"/>
+            <stop offset="1" stop-color="#2d3239"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1=".15" y1=".14" x2=".825" y2=".877" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#cfcfcf"/>
+            <stop offset="1" stop-color="#919191"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1=".274" y1=".128" x2=".748" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f6f0a4"/>
+            <stop offset="1" stop-color="#ffc640"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-4" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffd279"/>
+            <stop offset="1" stop-color="#ffc758"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-11" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffe3a0"/>
+            <stop offset="1" stop-color="#ffd279"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-18" x1=".537" y1="1" x2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#049892"/>
+            <stop offset="1" stop-color="#00a49d"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-24" x1=".5" y1="1" x2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#4eb8b4"/>
+            <stop offset="1" stop-color="#7dc8c5"/>
+        </linearGradient>
+        <style>
+            .cls-7{fill:url(#linear-gradient-4)}.cls-8{fill:url(#linear-gradient-11)}.cls-9{fill:url(#linear-gradient-18)}.cls-10{fill:url(#linear-gradient-24)}
+        </style>
+    </defs>
+    <g id="img_pay" transform="translate(-109 -706)">
+        <g id="그룹_11948" data-name="그룹 11948" transform="translate(19 140)">
+            <g id="그룹_11945" data-name="그룹 11945" transform="translate(-42 301.103)">
+                <rect id="사각형_13197" data-name="사각형 13197" width="84" height="57" rx="8" transform="translate(173 273.897)" style="fill:url(#linear-gradient)"/>
+                <rect id="사각형_13199" data-name="사각형 13199" width="15" height="12" rx="3" transform="translate(184 299.897)" style="fill:#bbc0c5;opacity:.8"/>
+                <rect id="사각형_13200" data-name="사각형 13200" width="36" height="6" rx="1" transform="translate(212 282.897)" style="opacity:.2;fill:#fff"/>
+                <circle id="타원_1645" data-name="타원 1645" cx="6" cy="6" r="6" transform="translate(236 311.897)" style="fill:url(#linear-gradient-2)"/>
+                <circle id="타원_1646" data-name="타원 1646" cx="6" cy="6" r="6" transform="translate(226 311.897)" style="fill:url(#linear-gradient-3)"/>
+            </g>
+            <g id="그룹_11946" data-name="그룹 11946" transform="translate(110.946 603.98)">
+                <path id="사각형_13291" data-name="사각형 13291" class="cls-7" transform="translate(3.054 27.019)" d="M0 0h21v4H0z"/>
+                <path id="사각형_13302" data-name="사각형 13302" class="cls-7" transform="translate(.054 23.019)" d="M0 0h22v4H0z"/>
+                <path id="사각형_13304" data-name="사각형 13304" class="cls-7" transform="translate(4.054 18.019)" d="M0 0h23v5H0z"/>
+                <path id="사각형_13306" data-name="사각형 13306" class="cls-7" transform="translate(2.054 13.019)" d="M0 0h21v5H0z"/>
+                <path id="사각형_13308" data-name="사각형 13308" class="cls-7" transform="translate(3.054 9.019)" d="M0 0h21v4H0z"/>
+                <path id="사각형_13310" data-name="사각형 13310" class="cls-7" transform="translate(.054 4.019)" d="M0 0h22v5H0z"/>
+                <path id="사각형_13312" data-name="사각형 13312" class="cls-7" transform="translate(2.054 .019)" d="M0 0h21v4H0z"/>
+                <path id="사각형_13292" data-name="사각형 13292" class="cls-8" transform="translate(10.054 27.019)" d="M0 0h6v4H0z"/>
+                <path id="사각형_13301" data-name="사각형 13301" class="cls-8" transform="translate(8.054 23.019)" d="M0 0h6v4H0z"/>
+                <path id="사각형_13303" data-name="사각형 13303" class="cls-8" transform="translate(12.054 18.019)" d="M0 0h6v5H0z"/>
+                <path id="사각형_13305" data-name="사각형 13305" class="cls-8" transform="translate(10.054 13.019)" d="M0 0h6v5H0z"/>
+                <path id="사각형_13307" data-name="사각형 13307" class="cls-8" transform="translate(10.054 9.019)" d="M0 0h6v4H0z"/>
+                <path id="사각형_13309" data-name="사각형 13309" class="cls-8" transform="translate(8.054 4.019)" d="M0 0h6v5H0z"/>
+                <path id="사각형_13311" data-name="사각형 13311" class="cls-8" transform="translate(10.054 .019)" d="M0 0h6v4H0z"/>
+            </g>
+            <g id="그룹_11947" data-name="그룹 11947" transform="translate(127.932 610.063)">
+                <path id="사각형_13291-2" data-name="사각형 13291" class="cls-9" transform="translate(2.068 17.937)" d="M0 0h22v5H0z"/>
+                <path id="사각형_13291-3" data-name="사각형 13291" class="cls-9" transform="translate(.068 13.937)" d="M0 0h23v4H0z"/>
+                <path id="사각형_13291-4" data-name="사각형 13291" class="cls-9" transform="translate(2.068 8.937)" d="M0 0h22v5H0z"/>
+                <path id="사각형_13291-5" data-name="사각형 13291" class="cls-9" transform="translate(1.068 3.937)" d="M0 0h22v5H0z"/>
+                <path id="사각형_13291-6" data-name="사각형 13291" class="cls-9" transform="translate(3.068 -.063)" d="M0 0h23v4H0z"/>
+                <path id="사각형_13291-7" data-name="사각형 13291" class="cls-9" transform="translate(1.068 22.937)" d="M0 0h22v4H0z"/>
+                <path id="사각형_13292-2" data-name="사각형 13292" class="cls-10" transform="translate(10.068 17.937)" d="M0 0h6v5H0z"/>
+                <path id="사각형_13292-3" data-name="사각형 13292" class="cls-10" transform="translate(9.068 13.937)" d="M0 0h6v4H0z"/>
+                <path id="사각형_13292-4" data-name="사각형 13292" class="cls-10" transform="translate(10.068 8.937)" d="M0 0h6v5H0z"/>
+                <path id="사각형_13292-5" data-name="사각형 13292" class="cls-10" transform="translate(9.068 3.937)" d="M0 0h7v5H0z"/>
+                <path id="사각형_13292-6" data-name="사각형 13292" class="cls-10" transform="translate(11.068 -.063)" d="M0 0h6v4H0z"/>
+                <path id="사각형_13292-7" data-name="사각형 13292" class="cls-10" transform="translate(9.068 22.937)" d="M0 0h7v4H0z"/>
+            </g>
+        </g>
+    </g>
+</svg>

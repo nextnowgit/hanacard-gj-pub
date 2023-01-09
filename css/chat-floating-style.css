@@ -1,0 +1,354 @@
+@charset "utf-8"; 
+
+/* 닫기버튼new */
+.chat-box-wrap {
+    height: 6.6rem;
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    position: fixed;
+    right: .5rem; bottom: 12rem; z-index: 100;
+}
+
+.chat-box-wrap>div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.chat-box-wrap>div .btn-close-n {
+    width: 1.4rem; height: 1.4rem;
+    border: none; border-radius: 50%;
+    background: #cac8c9;
+    font-size: 0;
+    z-index: 102;
+    position: absolute;
+    right: .2rem;
+    top: .2rem;
+}
+
+.chat-box-wrap>div .btn-close-n::before {
+    content: '';
+    display: inline-block;
+    width: .8rem; height: .8rem;
+    background: url(../images/aicc/btn_close.png) no-repeat center;
+    background-size: .8rem;
+}
+/* */
+
+:root {
+	--linear-bg: linear-gradient(135deg,  #04c1ba 0%,#00a49d 99%);
+	--chat-border: 0.2rem solid #00A49D;
+	--chat-msg-bg: #f5ffff;
+	--chat-bg: #00A49D;
+}
+
+.chat-floating-wrap img {
+	width: 100%; height: 100%;
+	position: absolute;
+	left: 0; top: 0;
+	border-radius: 50%;
+}
+
+/* wrap */
+.chat-floating-wrap{
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	width: 5.4rem;
+	height: 5.4rem;
+	border: var(--chat-border);
+	border-radius: 5.4rem;
+	background-color: var(--chat-msg-bg);
+	position: fixed; right: 1.5rem; bottom: 12rem; z-index: 100;
+	overflow: hidden;
+}
+
+
+/* 챗봇 */
+.chat-floating-wrap.load .motion-show {
+	display: inline-block;
+	width: 5.4rem; height: 5.4rem;
+}
+
+.chat-floating-wrap.load .btn-chatbot {
+	display: none;
+	margin-left: .2rem;
+}
+  
+/*  */
+.chat-floating-wrap.no-msg .motion-show {
+	display: inline-block;
+	width: 5.4rem; height: 5.4rem;
+}
+
+.chat-floating-wrap.no-msg.spread .btn-chatbot {
+	display: inline-block;
+}
+
+.chat-floating-wrap.no-msg .motion-show>img {
+	display: inline-block;
+}
+
+.chat-floating-wrap.no-msg .btn-chatbot {
+	display: none;
+}
+/*  */
+
+.chat-floating-wrap .btn-chatbot {
+  	outline: none;
+	width: 5.4rem; height: 5.4rem;
+	border: none; border-radius: 50%;
+	font-size: 0;
+	background-color: var(--chat-msg-bg);
+	position: absolute;
+	right: 0;
+	z-index: 105;
+}
+
+.chat-floating-wrap .btn-chatbot>img {
+	width: 5.4rem; height: 5.4rem;
+	position: absolute; top: 0; bottom: 0; right: 0;
+	border-radius: 50%;
+}
+
+.chat-floating-wrap.hide .btn-chatbot>img {
+	display:none;
+}
+  
+/* ********* */
+
+
+
+
+/* ********* */
+
+.chat-floating-wrap.open{
+	overflow: visible;
+	animation: msg-open 7s;
+}
+
+.chat-floating-wrap.open .chat-msg{
+	display: inline-block;
+	animation: msg-show 7s;
+}
+
+.chat-floating-wrap.open .btn-chatbot {
+	border: none;
+	background-color: transparent;
+	bottom: 0;
+  	display: inline-block;
+}
+
+.chat-floating-wrap.open .btn-chatbot>img {
+	display: inline-block;
+	position: absolute;
+	animation: chat-wave 7s;
+}
+
+@keyframes msg-open {
+	0%{width: 5.4rem; height: 5.4rem; bottom: 12rem;}
+	20%{width: 32rem; height: 4rem;}
+	85%{width: 32rem; height: 4rem;}
+	0%{width: 5.4rem; height: 5.4rem; bottom: 12rem;}
+}
+
+@keyframes msg-show {
+	0%{opacity: 0; width: 5.4rem;}
+	30% {width: 32rem;}
+	50% {opacity: 1; width: 32rem;}
+	80% {opacity: 1;}
+	85% {opacity: 0; width: 32rem;}
+	100%{opacity: 0; width: 5.4rem;}
+}
+
+@keyframes chat-wave {
+	0% {transform: scale(1);}
+	30% {transform: scale(1.2);}
+	80% {transform: scale(1.2);}
+	100% {transform: scale(1);}
+}
+
+/*
+.chat-floating-wrap.spread{
+	width: 18.2rem; 
+	display: flex; gap: 1rem;
+	border: 0.2rem solid transparent;
+	background-color: transparent;
+	animation: spread 2s;
+}
+
+.chat-floating-wrap.closed.spread .btn-chatbot{
+	display: inline-block;
+}
+
+.chat-floating-wrap.spread .btn-close{
+	display: inline-block;
+}
+.chat-floating-wrap.spread .btn-lucent{
+	display: inline-block;
+	position: absolute;
+	right: 6.4rem;
+}
+
+.chat-floating-wrap.spread .btn-chatbot {
+	background:var(--linear-bg);
+	animation: none;
+ 	display: inline-block;
+}
+
+.chat-floating-wrap.open.spread .btn-chatbot>img {
+	animation: none;
+}
+.chat-floating-wrap.load.spread .btn-chatbot {
+	display: inline-block;
+}
+
+.chat-floating-wrap.load.spread .btn-chatbot>img {
+	display: inline-block;
+}
+
+.chat-floating-wrap.spread .btn-chatbot>img{
+	display: inline-block;
+	background: var(--linear-bg);
+}
+
+.chat-floating-wrap.spread .chat-msg{
+	opacity: 0 !important;
+}
+
+.chat-floating-wrap.spread .motion{
+	background: var(--linear-bg);
+	border-radius: 50%;
+}
+
+@keyframes spread {
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 1;}
+}
+*/
+
+/* lucent
+.chat-floating-wrap.lucent {
+	background-color: var(--chat-bg);
+	opacity: .5;
+}
+
+.chat-floating-wrap.lucent .motion{
+	background: transparent;
+}
+
+.chat-floating-wrap.lucent .btn-chatbot>img{
+	display: inline-block;
+}
+
+.chat-floating-wrap.lucent.spread {
+	background-color: transparent;
+	opacity: 1;
+}
+
+.chat-floating-wrap.lucent.spread .btn-chatbot{
+	right: 6.4rem;
+}
+
+.chat-floating-wrap.lucent.spread .btn-lucent{
+	right: 0;
+}
+*/
+
+
+.chat-box-wrap.none {
+	display: none;
+}
+
+/* ********* */
+
+.chat-floating-wrap .chat-msg {
+	font-size: 1.5rem;
+	color: #111;
+	text-decoration: none;
+	display: none;
+	padding: 0 1.5rem;
+	position: absolute;
+	white-space: nowrap;
+	display: flex; align-items: center;
+	overflow: hidden;
+	width: 5.4rem;
+	opacity: 0;
+}
+
+
+/*  */
+.chat-floating-wrap.closed .btn-chatbot {
+	display: none;
+}
+
+/*  */
+
+
+/* 닫기버튼 */
+.chat-floating-wrap .btn-close {
+	display: none;
+	width: 5.4rem; height: 5.4rem;
+	border: none; border-radius: 50%;
+	background: var(--linear-bg);
+	font-size: 0;
+	z-index: 102;
+}
+
+.chat-floating-wrap .btn-close::before {
+	content: '';
+	display: inline-block;
+	width: 2.4rem; height: 2.4rem;
+	background: url(../images/aicc/btn_close.png) no-repeat;
+	background-size: 2.4rem;
+	animation: btn-rotate 1s ease;
+}
+
+@keyframes btn-rotate {
+	0% {transform: rotate(0);}
+	100% {transform: rotate(360deg);}
+} 
+/* ********* */
+
+
+
+/* 반투명 */
+.chat-floating-wrap .btn-lucent {
+	display: none;
+	width: 5.4rem; height: 5.4rem; border: none;
+	border-radius: 50%; font-size: 0;
+	background: url(../images/aicc/lucent_01.png) no-repeat;
+	background-size: contain;
+	opacity: .5;
+	background-color: var(--chat-bg);
+}
+/* ********* */
+.chat-floating-wrap .motion {
+	width: 5.4rem; height: 5.4rem;
+	position: fixed;
+	bottom: 12.2rem;
+	right: 1.7rem;
+	border-radius: 50%;
+}
+
+.chat-floating-wrap.spread .motion {
+	z-index: 99;
+}
+
+.chat-floating-wrap .motion-show>img{display: none;}
+.chat-floating-wrap .motion-hide>img{display: none;}
+
+
+.chat-floating-wrap.closed .motion-hide>img {
+	display: inline-block;
+}
+
+.chat-floating-wrap.load .motion-show>img {
+	display: inline-block;
+}
