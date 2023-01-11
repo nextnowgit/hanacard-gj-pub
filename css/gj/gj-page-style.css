@@ -1,0 +1,7 @@
+/* alert-electronic-push */
+.alert-electronic-push {text-align:center;}
+.alert-electronic-push .electronic-notice {margin:0 auto;}
+
+@media (max-width: 40em) {
+	.alert-electronic-push .electronic-notice img {width:100%;}
+}
