@@ -5,3 +5,24 @@
 @media (max-width: 40em) {
 	.alert-electronic-push .electronic-notice img {width:100%;}
 }
+
+.banner-promotion {display:flex; align-items: center; padding: 19px 20px; margin:10px 0 15px; border-radius: 10px; background-color:#f5f4f1;}
+.banner-promotion .type-icon-promotion {margin-right:20px; background-image:url('../../images/gj/ic-card-size-44.svg');}
+.banner-promotion .text-promotion {font-size:1.5rem; font-weight:300; line-height:2rem;}
+.banner-promotion .text-promotion span {display:block;}
+.banner-promotion .text-promotion .date {display:block; font-weight:300; font-size:1.1rem;}
+
+.form-detail-block.type-disabled,
+.form-detail-block.type-disabled .usage-default-etc-item,
+.form-detail-block.type-disabled .form-detail-title {color: var(--gray-60);}
+
+.d-justify-between {
+	-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.box-qr-scan {position:relative; padding: 25px 20px; border-radius: 15px; border: 1px solid var(--gray-30);}
+.box-qr-scan .type-icon-qrscan {position:absolute; top:25px; right:20px;  background-image:url('../../images/gj/ic-qrscan-44.svg');}
+.box-qr-scan .qr-info-title {display: block; font-size: 1.7rem; color: var(--basic); font-weight: 500;}
+.box-qr-scan .qr-info-text {font-size: 1.5rem; line-height: 21px; color: var(--gray-70); margin-top:10px;}
