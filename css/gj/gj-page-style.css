@@ -5,6 +5,9 @@
 .alert-electronic-push .type-icon-alarm::after {background-position:center top;}
 .alert-electronic-push .type-icon-suggest::after {background-position:center top;}
 
+.type-gj-complete {padding-top:90px; }
+.type-gj-complete .has-com-icon::after {margin-top:0; background-position:center top;}
+
 @media (max-width: 40em) {
 	.alert-electronic-push .electronic-notice img {width:100%;}
 }
@@ -31,3 +34,7 @@
 .box-qr-scan .qr-info-text {font-size: 1.5rem; line-height: 21px; color: var(--gray-70); margin-top:10px;}
 
 .padding-top-15 {padding-top:15px;}
+
+.info-cards.type-gj-cards-list .info-cards-list {padding:0 24px 0 46px;}
+.info-cards.type-gj-cards-list .info-cards-link {width:220px;}
+.info-cards.type-gj-cards-list .info-cards-title {font-size:1.2rem; text-align:center; font-weight:400;}
