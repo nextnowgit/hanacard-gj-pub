@@ -38,3 +38,10 @@
 .info-cards.type-gj-cards-list .info-cards-list {padding:0 24px 0 46px;}
 .info-cards.type-gj-cards-list .info-cards-link {width:220px;}
 .info-cards.type-gj-cards-list .info-cards-title {font-size:1.2rem; text-align:center; font-weight:400;}
+
+.type-gj-detail .accordion-item .accordion-opener:before {display:none;}
+.type-gj-detail .accordion-opener {background:#fff;}
+.type-gj-detail .accordion-contents {background: var(--gray-20);}
+.type-gj-detail .accordion-list {border:none; border-radius:0;}
+.type-gj-detail .accordion-item {border: 1px solid var(--gray-30); border-radius: 6px; overflow:hidden;}
+.type-gj-detail .accordion-item + .accordion-item {margin-top:11px;}

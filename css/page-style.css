@@ -249,7 +249,7 @@
 .login-method-list2.type-no-line .login-method-button::before {
 	margin-right: 20px;
 }
-/* 22.08.18 라인 추가 */
+/* 22.08.18 ???? ??? */
 /* .login-method-list2.type-no-line .login-method-item + .login-method-item {
 	border-top: 0;
 }
@@ -1328,7 +1328,7 @@
 	margin-left: 5px;
     display: none;
 }
-/* 22.09.19 카드명 수정 */
+/* 22.09.19 ???? ???? */
 .basic-text .global-card-arrow {
     display: inline-block;
 	vertical-align: middle;
@@ -1342,7 +1342,7 @@
     padding: 0 5px; 
     word-break: keep-all;
 }
-/* //22.09.19 카드명 수정 */
+/* //22.09.19 ???? ???? */
 .slide-card .card-detail .global-card-brand {
 	display: inline-block;
 	vertical-align: top;
@@ -1448,7 +1448,7 @@
 	right: 50%;
 	margin-right: -128px;
 }
-/* 22.10.11 내카드관리 화살표 삭제 */
+/* 22.10.11 ???????? ???? ???? */
 .slide-card .swiper-button-prev,
 .slide-card .swiper-button-next {
 	display: none;
@@ -1525,7 +1525,7 @@
 	transition: background-color 0.3s;
 }
 
-/* 22.08.03 스와이퍼 추가 */
+/* 22.08.03 ???????? ??? */
 .slide-card2 {
 	margin: 0 -24px;
 	position: relative;
@@ -1609,7 +1609,7 @@
 .slide-card2 .swiper-object.swiper-object-once .swiper-button-next {
 	display: none;
 }
-/* //22.08.03 스와이퍼 추가 */
+/* //22.08.03 ???????? ??? */
 
 .card-comparison-section {
 	margin-top: 35px;
@@ -2244,7 +2244,7 @@
 .card-list.type-active-disabled .ui-checkbox[disabled] + .ui-label .logo-image {
 	opacity: 0.4;
 }
-/* ui-select-list 선택시 스타일 미적용 */
+/* ui-select-list ????? ????? ?????? */
 .ui-select-list.type-unset input:checked + .ui-label,
 .ui-select-list.type-unset .ui-radio-block.is-checked .ui-label {
 	color: unset;
@@ -3992,12 +3992,12 @@
 	background: #5c7275;
 }
 
-/* 금융 한눈에 보기 */
+/* ???? ????? ???? */
 .type-lview .form-bottom {
 	margin-top: 20px;
 }
 
-/* 모든 혜택 */
+/* ??? ???? */
 .page-contents.type-benefit-home .menu-top {
 	padding: 24px 24px 35px 24px;
 }
@@ -4197,39 +4197,39 @@
 .menu-horizontal-icon.type-like-01,
 .benefit-detail-like-icon.type-like-01 {
 	background-image: url('../images/icon/ic-like-1.png');
-} /* 온라인쇼핑 */
+} /* ?¶??μ??? */
 .menu-horizontal-icon.type-like-02,
 .benefit-detail-like-icon.type-like-02 {
 	background-image: url('../images/icon/ic-like-2.png');
-} /* 홈쇼핑 */
+} /* ????? */
 .menu-horizontal-icon.type-like-03,
 .benefit-detail-like-icon.type-like-03 {
 	background-image: url('../images/icon/ic-like-3.png');
-} /* 패션 */
+} /* ?м? */
 .menu-horizontal-icon.type-like-04,
 .benefit-detail-like-icon.type-like-04 {
 	background-image: url('../images/icon/ic-like-4.png');
-} /* 백화점 */
+} /* ????? */
 .menu-horizontal-icon.type-like-05,
 .benefit-detail-like-icon.type-like-05 {
 	background-image: url('../images/icon/ic-like-5.png');
-} /* 아울렛 */
+} /* ??? */
 .menu-horizontal-icon.type-like-06,
 .benefit-detail-like-icon.type-like-06 {
 	background-image: url('../images/icon/ic-like-6.png');
-} /* 복합몰 */
+} /* ????? */
 .menu-horizontal-icon.type-like-07,
 .benefit-detail-like-icon.type-like-07 {
 	background-image: url('../images/icon/ic-like-7.png');
-} /* 대형마트 */
+} /* ??????? */
 .menu-horizontal-icon.type-like-08,
 .benefit-detail-like-icon.type-like-08 {
 	background-image: url('../images/icon/ic-like-8.png');
-} /* 마트 */
+} /* ??? */
 .menu-horizontal-icon.type-like-09,
 .benefit-detail-like-icon.type-like-09 {
 	background-image: url('../images/icon/ic-like-9.png');
-} /* 편의점 */
+} /* ?????? */
 .menu-horizontal-icon.type-like-10,
 .benefit-detail-like-icon.type-like-10 {
 	background-image: url('../images/icon/ic-like-10.png');
@@ -4237,19 +4237,19 @@
 .menu-horizontal-icon.type-like-11,
 .benefit-detail-like-icon.type-like-11 {
 	background-image: url('../images/icon/ic-like-11.png');
-} /* 배달 */
+} /* ??? */
 .menu-horizontal-icon.type-like-12,
 .benefit-detail-like-icon.type-like-12 {
 	background-image: url('../images/icon/ic-like-12.png');
-} /* 미식 */
+} /* ??? */
 .menu-horizontal-icon.type-like-13,
 .benefit-detail-like-icon.type-like-13 {
 	background-image: url('../images/icon/ic-like-13.png');
-} /* 커피 */
+} /* Ŀ?? */
 .menu-horizontal-icon.type-like-14,
 .benefit-detail-like-icon.type-like-14 {
 	background-image: url('../images/icon/ic-like-14.png');
-} /* 패스트푸드 */
+} /* ?н????? */
 .menu-horizontal-icon.type-like-15,
 .benefit-detail-like-icon.type-like-15 {
 	background-image: url('../images/icon/ic-like-15.png');
@@ -4257,53 +4257,53 @@
 .menu-horizontal-icon.type-like-16,
 .benefit-detail-like-icon.type-like-16 {
 	background-image: url('../images/icon/ic-like-16.png');
-} /* 구독&공유 */
+} /* ????&???? */
 .menu-horizontal-icon.type-like-17,
 .benefit-detail-like-icon.type-like-17 {
 	background-image: url('../images/icon/ic-like-17.png');
-} /* 호텔 */
+} /* ??? */
 .menu-horizontal-icon.type-like-18,
 .benefit-detail-like-icon.type-like-18 {
 	background-image: url('../images/icon/ic-like-18.png');
-} /* 골프&리조프 */
+} /* ????&?????? */
 .menu-horizontal-icon.type-like-19,
 .benefit-detail-like-icon.type-like-19 {
 	background-image: url('../images/icon/ic-like-19.png');
-} /* 운동 */
+} /* ?? */
 .menu-horizontal-icon.type-like-20,
 .benefit-detail-like-icon.type-like-20 {
 	background-image: url('../images/icon/ic-like-20.png');
-} /* 게임 */
+} /* ???? */
 .menu-horizontal-icon.type-like-21,
 .benefit-detail-like-icon.type-like-21 {
 	background-image: url('../images/icon/ic-like-21.png');
-} /* 인테리어 */
+} /* ??????? */
 .menu-horizontal-icon.type-like-22,
 .benefit-detail-like-icon.type-like-22 {
 	background-image: url('../images/icon/ic-like-22.png');
-} /* 교육 */
+} /* ???? */
 .menu-horizontal-icon.type-like-23,
 .benefit-detail-like-icon.type-like-23 {
 	background-image: url('../images/icon/ic-like-23.png');
-} /* 반려동물 */
+} /* ??????? */
 .menu-horizontal-icon.type-like-24,
 .benefit-detail-like-icon.type-like-24 {
 	background-image: url('../images/icon/ic-like-24.png');
-} /* 키즈 */
+} /* ??? */
 .menu-horizontal-icon.type-like-25,
 .benefit-detail-like-icon.type-like-25 {
 	background-image: url('../images/icon/ic-like-25.png');
-} /* 해외결제 */
+} /* ?????? */
 .menu-horizontal-icon.type-like-26,
 .benefit-detail-like-icon.type-like-26 {
 	background-image: url('../images/icon/ic-like-26.png');
-} /* 해외여행 */
+} /* ?????? */
 .menu-horizontal-icon.type-like-27,
 .benefit-detail-like-icon.type-like-27 {
 	background-image: url('../images/icon/ic-like-27.png');
-} /* 해외직구 */
+} /* ??????? */
 
-/* 트래블로그 팝업 */
+/* ??????α? ??? */
 .type-travlog .slide-banner .slide-banner-controller {
 	top: 0;
 }
@@ -4344,7 +4344,7 @@
 	font-weight: 300;
 	padding: 0 0 20px 20px;
 }
-/* 2022.11.18 내카드관리 */	
+/* 2022.11.18 ???????? */	
 .header.is-scroll{z-index:1000;}
 .my-card-fix.slide-card{background:#fff;top:0;border-bottom:1px solid transparent;}
 .my-card-fix.slide-card.is-scroll{position:fixed;top:50px;left:0;right:0;z-index:100;box-sizing:border-box;border-bottom: 1px solid var(--gray-30);transition:.5s;}
@@ -4362,7 +4362,7 @@
 .my-card-fix.slide-card.is-scroll .card-detail .card-flex{display:flex;align-items:flex-end;margin-bottom:10px;}
 .my-card-fix.slide-card.is-scroll .card-detail .card-flex .global-card-brand-group{margin:0 6px 0 0;}
 .my-card-fix.slide-card.is-scroll .card-detail .margin-top-minus-5.basic-text {height:32px;width:calc(100% - 38px);vertical-align: baseline;line-height: 32px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
-/* 22.11.24 이용내역서 push */
+/* 22.11.24 ??볻???? push */
 .layer-wrap.layer-new-push .ui-layer__body{
 	position:relative; 
 	overflow:inherit;

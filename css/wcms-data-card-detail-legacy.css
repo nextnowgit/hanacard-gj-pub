@@ -62,23 +62,23 @@
 .card-detail-data .btn_area > li > a.hide {background:#e6e6e6; color:#ddd !important;}
 .card-detail-data .btn_area > li > span:empty {display:table-cell;width:5px;}
 
-/* 점 */
+/* ?? */
 .card-detail-data .blt1 {position:relative;padding-left:8px;}
 .card-detail-data .blt1:before {content:"";position:absolute;left:0;top:9px;width:2px;height:2px;background-color:#999;}
-/* 하이픈 */
+/* ?????? */
 .card-detail-data .blt2 {position:relative;padding-left:8px;}
 .card-detail-data .blt2:before {content:"";position:absolute;left:0;top:10px;width:3px;height:1px;background-color:#999;}
-/* 당구장표시 */
+/* ??????? */
 .card-detail-data .blt3 {position:relative;padding-left:15px;font-size:13px;}
-.card-detail-data .blt3:before {content:"※";position:absolute;left:0;top:0;font-size:13px;}
+.card-detail-data .blt3:before {content:"??";position:absolute;left:0;top:0;font-size:13px;}
 .card-detail-data p.blt3 {margin-top:4px;}
-/* 스타일없음 */
+/* ???????? */
 .card-detail-data p.blt5 {position:relative;padding:50px 20px;text-align:center;}
 .card-detail-data p.blt5.ty02{position:relative;padding:0 0 25px;text-align:left;}
-/* 별표 */
+/* ??? */
 .card-detail-data .blt6 {position:relative;padding-left:10px;font-size:13px;}
 .card-detail-data .blt6:before {content:"*";position:absolute;left:0;top:3px;font-size:13px;}
-/* 1. 1), 가, ①*/
+/* 1. 1), ??, ??*/
 .card-detail-data .blt7 {margin-left:16px; text-indent:-16px;}
 .card-detail-data .blt7 * {text-indent:0;}
 .card-detail-data .blt7 .blt7 {text-indent:-16px;}
@@ -86,7 +86,7 @@
 .card-detail-data .blt8 {margin-left:22px; text-indent:-22px;}
 .card-detail-data .blt8 * {text-indent:0;}
 .card-detail-data .blt8 .blt8 {text-indent:-22px;}
-/* 경고(느낌표) */
+/* ???(?????) */
 .card-detail-data .blt4 {position:relative;padding-left:17px;color:#828282;font-size:13px;}
 .card-detail-data .blt4:before {content:"";display:block;position:absolute;left:0;top:3px;width:13px;height:13px;background:url('../images/legacy/blt_guid.png') no-repeat 0 / 100%;}
 .card-detail-data p.blt4 {margin-top:5px;}
@@ -183,7 +183,7 @@
 .card-detail-data .table_ty .life_imgbox img {margin-left:5px; vertical-align:middle;}
 .card-detail-data .table_ty .life_imgbox img:first-child {margin-left:0;}
 
-.card-detail-data .table_ty.ty02 td {border-left:1px solid #e0e0e0;}/* td 여러개인 경우 */
+.card-detail-data .table_ty.ty02 td {border-left:1px solid #e0e0e0;}/* td ???????? ??? */
 .card-detail-data .table_ty.ty02 td:first-child {border-left:0;}
 .card-detail-data .table_ty + .txt_li {margin-top:10px;}
 .card-detail-data .t_tit + .table_ty {margin-top:30px;}
@@ -266,7 +266,7 @@
 .card-detail-data .line_box {margin-top:30px; padding:20px; border:1px solid #e0e0e0;}
 .card-detail-data .line_box img {width:80%;}
 
-.card-detail-data p.blt5:before {position:absolute;left:0;top:0px;font-size:12px;color:#333;content:"※ ";}
+.card-detail-data p.blt5:before {position:absolute;left:0;top:0px;font-size:12px;color:#333;content:"?? ";}
 .card-detail-data p.blt5{margin:0;position:relative;padding:0 0 0 14px;text-align:left}
 
 .card-detail-data .link_txt02 {display:inline-block;background:url('../images/legacy/ico_go02.png') no-repeat right center/ 4px 7px;padding-right:10px;font-size:13px;color:#666;font-weight:bold;}
@@ -308,7 +308,7 @@
 .card-detail-data .info_step_box {padding:20px 15px;background:#fff;font-size:14px;color:#666;border: 1px solid #e5e5e5;}
 .card-detail-data .info_step_box ol {list-style:none;margin:0;padding:0;}
 .card-detail-data .info_step_box ol > li {display:inline;}
-.card-detail-data .info_step_box ol > li:before {display:inline-block;width:18px;content:"→";}
+.card-detail-data .info_step_box ol > li:before {display:inline-block;width:18px;content:"??";}
 .card-detail-data .info_step_box ol > li:first-child:before {width:0;content:"";}
 .card-detail-data .info_step_box ol > li > em {font-size:15px;font-weight:bold;font-style:normal;}
 
@@ -381,9 +381,9 @@
 .card-detail-data .stit_s {list-style:none;margin:0;padding:0;font-size:14px;color:#666;}
 
 .card-detail-data .blt5 {position:relative;padding-left:17px;}
-.card-detail-data .blt5:before {position:absolute;left:0;top:0px;font-size:12px;color:#333;content:"※ ";}
+.card-detail-data .blt5:before {position:absolute;left:0;top:0px;font-size:12px;color:#333;content:"?? ";}
 .card-detail-data .blt5.t_point:before {color:#00907f;}
-.card-detail-data .blt5.ty02:before {position:absolute;left:0;top:0px;font-size:15px;color:#333;content:"※ ";}
+.card-detail-data .blt5.ty02:before {position:absolute;left:0;top:0px;font-size:15px;color:#333;content:"?? ";}
 .card-detail-data .blt5.ty02.t_txt03:before{color:#666;}
 .card-detail-data .blt5.ty03{font-size:14px;color:#666;}
 .card-detail-data .blt5.ty03:before{font-size:14px;color:#666;}
