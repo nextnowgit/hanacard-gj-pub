@@ -36,66 +36,65 @@
 <body>
 	<div id="wrap">
 		<div class="layout-wrap">
-			<!-- fix top area -->
-			<div class="fix-top-wrap">
-				<header class="header">
-					<div class="header-left">
-						<button type="button" class="header-button type-back"><span class="for-a11y">이전</span></button>
-						<h1 class="header-title">서울시 세입금 납부</h1>
-					</div>
-					<div class="header-right">
-						<button type="button" class="header-button type-menu"><span class="for-a11y">메뉴</span></button>
-					</div>
-				</header>
-			</div>
-			<!-- //fix top area -->
-
 			<div class="contents-wrap">
-				<div class="page-contents has-no-top-padding">
-					<div class="banner-promotion">
-						<span class="guide-info-icon type-icon-promotion"></span>
-						<p class="text-promotion">
-							무이자할부로 부담없이 결제!
-							<span class="font-weight-medium">2022년 무이자 할부 안내</span>
-							<span class="date">2022.01.01~2022.12.31</span>
-						</p>
+				<div class="page-contents">
+					<div class="ui-buttons">
+						<ul class="ui-buttons-list">
+							<li class="ui-buttons-item">
+								<button type="button" class="ui-button ui-basic-button" data-layer-open="layer-quit-push">서울시 지방세입 전자고지 해지신청</button>
+							</li>
+						</ul>
 					</div>
-					
-					<div class="page-section">
-						<p class="medium-text font-weight-light">깜빡하고 자주 세입금 납부를 잊으셨나요?</p>
-
-						<div class="d-flex d-justify-between margin-top-10">
-							<p class="basic-text font-weight-medium">고지서가 도착하면 바로 알려드려요.</p>
-							<div class="ui-toggle-block">
-								<input type="checkbox" class="ui-toggle" id="checkboxToggle1-1">
-								<label for="checkboxToggle1-1" class="ui-label">
-									<span class="ui-toggle-object"></span>
-								</label>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="page-buttons">
-					<div class="box-qr-scan">
-						<span class="guide-info-icon type-icon-qrscan"></span>
-						<p class="qr-info-title">간편납부</p>
-						<p class="qr-info-text">
-							고지서에 있는 QR코드를 스캔하면<br>
-							빠르고 쉽게 납부 할 수 있어요.
-						</p>
-						<div class="ui-buttons type-full margin-top-14">
-							<ul class="ui-buttons-list">
-								<button type="button" class="ui-button ui-basic-button type-primary">QR코드로 납부하기</button>
-							</ul>
-						</div>
-					</div>
-					
 				</div>
 			</div>
 		</div>
+
+		<!-- layer: 서울시 지방세입 전자고지 해지신청 -->
+		<div class="layer-wrap layer-wrap--slide layer-wrap--select" data-layer="layer-quit-push">
+			<div class="layer-container">
+				<section class="ui-layer">
+					<div class="ui-layer__head">
+						<div class="header">
+							<h2 class="header__title">서울시 지방세입 전자고지 해지신청</h2>
+							<div class="header__right">
+								<button type="button" class="ui-button header__button header__button--close" data-role="layerClose">
+									<span class="for-a11y">레이어 닫기</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="ui-layer__body">
+						<div class="ui-layer__body-inner">
+							<div class="alert-electronic-push">
+								<p class="has-com-icon type-icon-fail"></p>
+								<p class="large-text margin-top-20">
+									지방세입 전자고지서 알림서비스를<br>해지할까요?
+								</p>
+								<p class="default-text color-blur margin-top-14">
+									서비스 해지 시 지방세입 전자고지 알림을 받을 수 없어요.<br />
+									이전 받으셨던 전자고지도 함께 사라집니다.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ui-layer__foot">
+						<div class="ui-buttons">
+							<ul class="ui-buttons-list">
+								<li class="ui-buttons-item type-narrow">
+									<a href="" class="ui-button ui-basic-button type-secondary">취소</a>
+								</li>
+								<li class="ui-buttons-item">
+									<a href="" class="ui-button ui-basic-button type-primary">해지신청하기</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- //layer: 서울시 지방세입 전자고지 알림신청 -->
 	</div>
-	
+
 	<!-- script -->
 	<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="../js/swiper.min.js"></script>
@@ -104,6 +103,11 @@
 	<script type="text/javascript" src="../js/duet-date-picker/duet.js"></script>
 	<script type="text/javascript" src="../js/ui-script.js"></script>
 	<script type="text/javascript" src="../js/wcms-data.js"></script>
+	<script>
+		$(function () {
+			uiJSLayer.open('layer-quit-push');
+		});
+	</script>
 	<!-- //script -->
 </body>
 </html>

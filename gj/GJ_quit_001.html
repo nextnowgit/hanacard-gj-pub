@@ -35,65 +35,32 @@
 </head>
 <body>
 	<div id="wrap">
-		<div class="layout-wrap">
-			<!-- fix top area -->
-			<div class="fix-top-wrap">
-				<header class="header">
-					<div class="header-left">
-						<button type="button" class="header-button type-back"><span class="for-a11y">이전</span></button>
-						<h1 class="header-title">서울시 세입금 납부</h1>
-					</div>
-					<div class="header-right">
-						<button type="button" class="header-button type-menu"><span class="for-a11y">메뉴</span></button>
-					</div>
-				</header>
-			</div>
-			<!-- //fix top area -->
-
-			<div class="contents-wrap">
-				<div class="page-contents has-no-top-padding">
-					<div class="banner-promotion">
-						<span class="guide-info-icon type-icon-promotion"></span>
-						<p class="text-promotion">
-							무이자할부로 부담없이 결제!
-							<span class="font-weight-medium">2022년 무이자 할부 안내</span>
-							<span class="date">2022.01.01~2022.12.31</span>
-						</p>
-					</div>
-					
-					<div class="page-section">
-						<p class="medium-text font-weight-light">깜빡하고 자주 세입금 납부를 잊으셨나요?</p>
-
-						<div class="d-flex d-justify-between margin-top-10">
-							<p class="basic-text font-weight-medium">고지서가 도착하면 바로 알려드려요.</p>
-							<div class="ui-toggle-block">
-								<input type="checkbox" class="ui-toggle" id="checkboxToggle1-1">
-								<label for="checkboxToggle1-1" class="ui-label">
-									<span class="ui-toggle-object"></span>
-								</label>
-							</div>
+		<!-- layer: 얼럿형(확인) -->
+		<div class="layer-wrap layer-alert" data-layer="test-alert-confirm">
+			<div class="layer-container">
+				<section class="ui-alert">
+					<div class="ui-alert__body">
+						<div class="ui-alert__body-inner">
+							<p class="ui-alert-message">
+								신청/해지 서비스 가능 시간은 <br>
+								00:30~23:30 입니다.<br>
+								가능한 시간에 다시 이용해 주세요.
+							</p>
 						</div>
 					</div>
-				</div>
-
-				<div class="page-buttons">
-					<div class="box-qr-scan">
-						<span class="guide-info-icon type-icon-qrscan"></span>
-						<p class="qr-info-title">간편납부</p>
-						<p class="qr-info-text">
-							고지서에 있는 QR코드를 스캔하면<br>
-							빠르고 쉽게 납부 할 수 있어요.
-						</p>
-						<div class="ui-buttons type-full margin-top-14">
+					<div class="ui-alert__foot">
+						<div class="ui-buttons">
 							<ul class="ui-buttons-list">
-								<button type="button" class="ui-button ui-basic-button type-primary">QR코드로 납부하기</button>
+								<li class="ui-buttons-item">
+									<button type="button" class="ui-button ui-regular-button type-primary" data-role="layerClose">확인</button>
+								</li>
 							</ul>
 						</div>
 					</div>
-					
-				</div>
+				</section>
 			</div>
 		</div>
+		<!-- //layer: 얼럿형(확인) -->
 	</div>
 	
 	<!-- script -->
@@ -104,6 +71,11 @@
 	<script type="text/javascript" src="../js/duet-date-picker/duet.js"></script>
 	<script type="text/javascript" src="../js/ui-script.js"></script>
 	<script type="text/javascript" src="../js/wcms-data.js"></script>
+	<script>
+		$(function () {
+			uiJSLayer.open('test-alert-confirm');
+		});
+	</script>
 	<!-- //script -->
 </body>
 </html>
