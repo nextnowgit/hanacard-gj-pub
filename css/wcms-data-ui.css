@@ -189,7 +189,7 @@
 	margin-right: 10px;
 }
 .wcms-data .wcms-circle-title-symbol::before {
-	content: '??';
+	content: '　';
 	width: 0;
 	overflow: hidden;
 }
@@ -329,7 +329,7 @@
 	margin-right: 5px;
 }
 .wcms-data .wcms-list-item.type-dot::before {
-	content: '??';
+	content: '　';
 	width: 2px;
 	overflow: hidden;
 	background: url('../images/wcms/dot.svg') no-repeat 50% 50%;
@@ -479,7 +479,7 @@
 	transition: transform 0.3s;
 }
 .wcms-data .wcms-accordion-opener .wcms-for-a11y::before {
-	content: '?? ???? ????';
+	content: '상세 내용 보기';
 }
 .wcms-data .wcms-accordion-layer {
 	display: none;
@@ -505,7 +505,7 @@
 	transform: rotate(180deg);
 }
 .wcms-data .wcms-accordion-item.is-opened > .wcms-accordion-head .wcms-accordion-opener .wcms-for-a11y::before {
-	content: '?? ???? ?????';
+	content: '상세 내용 숨기기';
 }
 .wcms-data .wcms-accordion-item.is-opened > .wcms-accordion-layer {
 	display: block;
@@ -583,7 +583,7 @@
 	background-color: rgba(0, 0, 0, 0);
 }
 .wcms-data .wcms-notice-opener .wcms-for-a11y::before {
-	content: '?? ???? ????';
+	content: '상세 내용 보기';
 }
 .wcms-data .wcms-notice-layer {
 	display: none;
@@ -607,7 +607,7 @@
 	transform: rotate(180deg);
 }
 .wcms-data .wcms-notice-item.is-opened > .wcms-notice-head .wcms-notice-opener .wcms-for-a11y::before {
-	content: '?? ???? ?????';
+	content: '상세 내용 숨기기';
 }
 .wcms-data .wcms-notice-item.is-opened > .wcms-notice-layer {
 	display: block;
@@ -1148,7 +1148,7 @@
 	transition: transform 0.3s;
 }
 .wcms-data .wcms-agree-opener .wcms-for-a11y::before {
-	content: '?? ???? ????';
+	content: '상세 내용 보기';
 }
 .wcms-data .wcms-agree-layer {
 	display: none;
@@ -1168,7 +1168,7 @@
 	transform: rotate(180deg);
 }
 .wcms-data .wcms-agree-item.is-opened > .wcms-agree-block .wcms-agree-opener .wcms-for-a11y::before {
-	content: '?? ???? ?????';
+	content: '상세 내용 숨기기';
 }
 .wcms-data .wcms-agree-item.is-opened > .wcms-agree-layer {
 	display: block;
@@ -1595,7 +1595,7 @@
 	position: relative;
 }
 .event-monthly .event-box-wrap.is-expire:before {
-	content: '????????';
+	content: '이벤트종료';
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1798,7 +1798,7 @@
 	right: 0;
 	border-top: 1px solid #888;
 }
-/* 221109 ????? ??? ?????? ???? ?????? */
+/* 221109 모바일 팝업 사이즈 변경 재정의 */
 .wcms-data .notice-pop-data-inner h3{margin:0;font-size:20px;line-height:27px;}
 .wcms-data .notice-pop-data-inner p{margin:0;font-size:15px;line-height:20px;font-weight:300;}
 .wcms-data .notice-pop-data-inner h3 + p{margin-top:19px;}
