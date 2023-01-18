@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>하나카드 원큐페이 행안부전자지갑</title>
+
+	<meta charset="euc-kr" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- favicon -->
+	<link rel="icon" href="../images/common/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="57x57" href="../images/common/appicon-57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="../images/common/appicon-60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../images/common/appicon-72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../images/common/appicon-76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../images/common/appicon-114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../images/common/appicon-120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="../images/common/appicon-144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../images/common/appicon-152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../images/common/appicon-180.png" />
+	<link rel="apple-touch-icon" sizes="512x512" href="../images/common/appicon-512.png" />
+	<!-- //favicon -->
+
+	<!-- style -->
+	<link type="text/css" rel="stylesheet" href="../css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="../css/rangeslider.css" />
+	<link type="text/css" rel="stylesheet" href="../css/common.css" />
+	<link type="text/css" rel="stylesheet" href="../css/ui-style.css" />
+	<link type="text/css" rel="stylesheet" href="../css/page-style.css" />
+	<link type="text/css" rel="stylesheet" href="../css/wcms-data.css" />
+
+	<!-- 서울시 전용 content css -->
+	<link type="text/css" rel="stylesheet" href="../css/gj/gj-page-style.css" />
+	<!-- //style -->
+</head>
+<body>
+	<div id="wrap">
+		<div class="layout-wrap">
+			<div class="contents-wrap">
+				<div class="page-contents">
+					<div class="ui-buttons">
+						<ul class="ui-buttons-list">
+							<li class="ui-buttons-item">
+								<button type="button" class="ui-button ui-basic-button" data-layer-open="layer-schedule-detail">지방세입 납부일정</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- layer: 2023년 지방세입 납부일정 -->
+		<div class="layer-wrap layer-wrap--full" data-layer="layer-schedule-detail">
+			<div class="layer-container">
+				<section class="ui-layer">
+					<div class="ui-layer__head">
+						<div class="header">
+							<h1 class="header-title">2023년 서울시 지방세입 납부일정</h1>
+
+							<div class="header__right">
+								<button type="button" class="ui-button header__button header__button--close" data-role="layerClose">
+									<span class="for-a11y">레이어 닫기</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="ui-layer__body">
+						<div class="ui-layer__body-inner">
+							<div class="info-table-area">
+								<table class="info-table">
+									<caption class="for-a11y">
+										납부월, 납부기간, 세금종류로 구성된 납부상세 안내 표입니다.
+									</caption>
+									<colgroup>
+										<col style="width: 60px">
+										<col>
+										<col>
+									</colgroup>
+									<thead>
+										<tr>
+											<th scope="col">납부월</th>
+											<th scope="col">납부기간</th>
+											<th scope="col">세금종류</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="3">1월</td>
+											<td>01. 01 ~ 01. 10</td>
+											<td>주민세 종업원분, 레저세 ,지방소득세 특별징수분</td>
+										</tr>
+										<tr>
+											<td>01. 05 ~ 01. 31</td>
+											<td>자동차세(신고납부-연납)</td>
+										</tr>
+										<tr>
+											<td>01. 16 ~ 01. 31</td>
+											<td>등록면허세(면허)</td>
+										</tr>
+										<tr>
+											<td>2월</td>
+											<td>02. 01 ~ 02. 10</td>
+											<td>주민세 종업원분, 레저세, 지방소득세 특별징수분</td>
+										</tr>
+										<tr>
+											<td rowspan="2">3월</td>
+											<td>03. 01 ~ 03. 10</td>
+											<td>주민세 종업원분, 레저세 ,지방소득세 특별징수분</td>
+										</tr>
+										<tr>
+											<td>03. 16 ~ 03. 31</td>
+											<td>자동차세(신고납부-3/4 선납)</td>
+										</tr>
+										<tr>
+											<td rowspan="2">4월</td>
+											<td>04. 01 ~ 04. 10</td>
+											<td>지방소득세 특별징수분, 주민세 종업원분, 레저세</td>
+										</tr>
+										<tr>
+											<td>04. 01 ~ 05. 02</td>
+											<td>지방소득세 법인세분(신고납부-12월 결산법인)</td>
+										</tr>
+										<tr>
+											<td rowspan="2">5월</td>
+											<td>05. 01 ~ 05. 10</td>
+											<td>지방소득세 특별징수분, 레저세, 주민세 종업원분</td>
+										</tr>
+										<tr>
+											<td>05. 01 ~ 05. 31</td>
+											<td>지방소득세 종합소득세분(신고납부)</td>
+										</tr>
+										<tr>
+											<td rowspan="2">6월</td>
+											<td>06. 01 ~ 06. 12</td>
+											<td>주민세 종업원분, 지방소득세 특별징수분, 레저세</td>
+										</tr>
+										<tr>
+											<td>06. 16 ~ 06. 30</td>
+											<td>자동차세(신고납부-2/4 선납), 자동차세(정기분-1분기)</td>
+										</tr>
+										<tr>
+											<td rowspan="2">7월</td>
+											<td>07. 01 ~ 07. 10</td>
+											<td>주민세 종업원분, 지방소득세 특별징수분, 레저세</td>
+										</tr>
+										<tr>
+											<td>07. 16 ~ 07. 31</td>
+											<td>
+												재산세(정기분-주택분의 1/2),<br>
+												재산세(정기분-주택이외 건축물(토지제외),<br>
+												재산세(정기분-선박분), 재산세(정기분-항공기분)
+											</td>
+										</tr>
+										<tr>
+											<td rowspan="3">8월</td>
+											<td>08. 01 ~ 08. 10</td>
+											<td>지방소득세 특별징수분, 주민세 종업원분, 레저세</td>
+										</tr>
+										<tr>
+											<td>08. 01 ~ 08. 31</td>
+											<td>주민세 사업소분</td>
+										</tr>
+										<tr>
+											<td>08. 16 ~ 08. 31</td>
+											<td>주민세 개인분</td>
+										</tr>
+										<tr>
+											<td rowspan="2">9월</td>
+											<td>09. 01 ~ 09. 11</td>
+											<td>레저세, 지방소득세 특별징수분, 주민세 종업원분</td>
+										</tr>
+										<tr>
+											<td>09. 16 ~ 10. 02</td>
+											<td>
+												자동차세(신고납부-1/4 선납),<br>
+												재산세(정기분-토지분),<br>
+												재산세(정기분-주택분의 1/2)
+											</td>
+										</tr>
+										<tr>
+											<td>10월</td>
+											<td>10. 01 ~ 10. 10</td>
+											<td>지방소득세 특별징수분, 레저세, 주민세 종업원분</td>
+										</tr>
+										<tr>
+											<td>11월</td>
+											<td>11. 01 ~ 11. 10</td>
+											<td>레저세, 지방소득세 특별징수분, 주민세 종업원분</td>
+										</tr>
+										<tr>
+											<td rowspan="2">12월</td>
+											<td>12. 01 ~ 12. 11</td>
+											<td>지방소득세 특별징수분, 레저세, 주민세 종업원분</td>
+										</tr>
+										<tr>
+											<td>12. 16 ~ 01. 02</td>
+											<td>자동차세(정기분-2분기)</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- //layer: 2023년 지방세입 납부일정 -->
+	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="../js/swiper.min.js"></script>
+	<script type="text/javascript" src="../js/rangeslider.min.js"></script>
+	<script type="text/javascript" src="../js/highcharts.js"></script>
+	<script type="text/javascript" src="../js/duet-date-picker/duet.js"></script>
+	<script type="text/javascript" src="../js/ui-script.js"></script>
+	<script type="text/javascript" src="../js/wcms-data.js"></script>
+	<script>
+		$(function () {
+			uiJSLayer.open('layer-schedule-detail');
+		});
+	</script>
+	<!-- //script -->
+</body>
+</html>
