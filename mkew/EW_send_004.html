@@ -22,7 +22,7 @@
 	<!-- //favicon -->
 
 	<!-- style -->
-	<link type="text/css" rel="stylesheet" href="../css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="../css/swiper.min.css" /> 
 	<link type="text/css" rel="stylesheet" href="../css/rangeslider.css" />
 	<link type="text/css" rel="stylesheet" href="../css/common.css" />
 	<link type="text/css" rel="stylesheet" href="../css/ui-style.css" />
@@ -36,62 +36,48 @@
 <body>
 	<div id="wrap">
 		<div class="layout-wrap">
+			<!-- fix top area -->
+			<div class="fix-top-wrap">
+				<header class="header">
+					<div class="header-left">
+						<button type="button" class="header-button type-back"><span class="for-a11y">이전</span></button>
+						<h1 class="header-title">기관제출하기</h1>
+					</div>
+				</header>
+			</div>
+			<!-- //fix top area -->
+
 			<div class="contents-wrap">
-				<div class="page-contents">
-					<div class="ui-buttons">
+				<div class="page-contents type-mkew-complete">
+					<p class="has-com-icon type-icon-suggest"></p>
+					<p class="large-text align-center margin-top-20">
+						증명서를 보냈어요.
+					</p>
+
+					<div class="page-section-group type-line align-center">
+						<p class="basic-text color-blur">
+							해당 기관에 제출 완료 후 확인까지<br>
+							시간이 걸릴 수 있습니다.
+						</p>
+						<p class="basic-text color-blur margin-top-15">
+							내 증명서 &gt; <a href="" class="text-underline color-basic">제출현황</a>에서 확인 할 수 있어요.
+						</p>
+					</div>
+				</div>
+
+				<div class="page-buttons">
+					<div class="ui-buttons type-full">
 						<ul class="ui-buttons-list">
 							<li class="ui-buttons-item">
-								<button type="button" class="ui-button ui-basic-button" data-layer-open="layer-card-certify">카드심사(한도)증명서 발급</button>
+								<button type="button" class="ui-button ui-basic-button type-primary">확인</button>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<!-- layer: 카드심사(한도)증명서 발급 -->
-		<div class="layer-wrap layer-wrap--slide layer-wrap--select" data-layer="layer-card-certify">
-			<div class="layer-container">
-				<section class="ui-layer">
-					<div class="ui-layer__head">
-						<div class="header">
-							<h2 class="header__title">카드심사(한도)증명서 발급</h2>
-							<div class="header__right">
-								<button type="button" class="ui-button header__button header__button--close" data-role="layerClose">
-									<span class="for-a11y">레이어 닫기</span>
-								</button>
-							</div>
-						</div>
-					</div>
-					<div class="ui-layer__body">
-						<div class="ui-layer__body-inner">
-							<p class="basic-text">카드심사(한도)에 필요한 증명서를 한꺼번에 발급할게요.</p>
-
-							<div class="card-certify-box">
-								<span class="item">소득금액증명원</span>
-								<span class="item">건강보험료납부확인서</span>
-								<span class="item">건강보험자격득실확인서</span>
-								<span class="item">건강보험자격확인서</span>
-								<span class="item">국내거소신고사실증명</span>
-								<span class="item">외국인등록사실증명</span>
-							</div>
-						</div>
-					</div>
-					<div class="ui-layer__foot">
-						<div class="ui-buttons type-full">
-							<ul class="ui-buttons-list">
-								<li class="ui-buttons-item">
-									<a href="" class="ui-button ui-basic-button type-primary">증명서 발급하기</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-			</div>
-		</div>
-		<!-- //layer: 카드심사(한도)증명서 발급 -->
 	</div>
-
+	
 	<!-- script -->
 	<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="../js/swiper.min.js"></script>
@@ -100,11 +86,6 @@
 	<script type="text/javascript" src="../js/duet-date-picker/duet.js"></script>
 	<script type="text/javascript" src="../js/ui-script.js"></script>
 	<script type="text/javascript" src="../js/wcms-data.js"></script>
-	<script>
-		$(function () {
-			uiJSLayer.open('layer-card-certify');
-		});
-	</script>
 	<!-- //script -->
 </body>
 </html>

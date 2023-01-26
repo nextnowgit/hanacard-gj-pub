@@ -41,7 +41,7 @@
 					<div class="ui-buttons">
 						<ul class="ui-buttons-list">
 							<li class="ui-buttons-item">
-								<button type="button" class="ui-button ui-basic-button" data-layer-open="layer-card-certify">카드심사(한도)증명서 발급</button>
+								<button type="button" class="ui-button ui-basic-button" data-layer-open="layer-step-info">발급절차 안내</button>
 							</li>
 						</ul>
 					</div>
@@ -49,13 +49,14 @@
 			</div>
 		</div>
 
-		<!-- layer: 카드심사(한도)증명서 발급 -->
-		<div class="layer-wrap layer-wrap--slide layer-wrap--select" data-layer="layer-card-certify">
+		<!-- layer: 발급절차 안내 -->
+		<div class="layer-wrap layer-wrap--full" data-layer="layer-step-info">
 			<div class="layer-container">
 				<section class="ui-layer">
 					<div class="ui-layer__head">
 						<div class="header">
-							<h2 class="header__title">카드심사(한도)증명서 발급</h2>
+							<h2 class="header__title">발급절차 안내</h2>
+
 							<div class="header__right">
 								<button type="button" class="ui-button header__button header__button--close" data-role="layerClose">
 									<span class="for-a11y">레이어 닫기</span>
@@ -65,31 +66,51 @@
 					</div>
 					<div class="ui-layer__body">
 						<div class="ui-layer__body-inner">
-							<p class="basic-text">카드심사(한도)에 필요한 증명서를 한꺼번에 발급할게요.</p>
+							<div class="getissue-step-info">
+								<ol>
+									<li>
+										<span class="num">1</span>
 
-							<div class="card-certify-box">
-								<span class="item">소득금액증명원</span>
-								<span class="item">건강보험료납부확인서</span>
-								<span class="item">건강보험자격득실확인서</span>
-								<span class="item">건강보험자격확인서</span>
-								<span class="item">국내거소신고사실증명</span>
-								<span class="item">외국인등록사실증명</span>
+										<div class="step-cont">
+											<p class="basic-text">대법원 전자가족관계등록시스템 접속</p>
+											<a href="" class="ui-arrow "><span class="highlight">바로가기</span></a>
+										</div>
+									</li>
+									<li>
+										<span class="num">2</span>
+
+										<div class="step-cont">
+											<p class="basic-text">로그인 (공동/금융인증서)</p>
+										</div>
+									</li>
+									<li>
+										<span class="num">3</span>
+
+										<div class="step-cont">
+											<p class="basic-text">열람/발급신청화면, 5번 수령방법에서 전자문서지갑 선택</p>
+											<p class="img-wrap">
+												<img src="../images/mkew/img-issue-info-01.png" alt="열람/발급신청화면, 5번 수령방법에서 전자문서지갑 선택">
+											</p>
+										</div>
+									</li>
+									<li>
+										<span class="num">4</span>
+
+										<div class="step-cont">
+											<p class="basic-text highlight">하나카드 증명서 발급 (탭)내 증명서에서 발급문서 확인</p>
+											<p class="img-wrap">
+												<img src="../images/mkew/img-issue-info-02.png" alt="하나카드 증명서 발급 (탭)내 증명서에서 발급문서 확인">
+											</p>
+										</div>
+									</li>
+								</ol>
 							</div>
-						</div>
-					</div>
-					<div class="ui-layer__foot">
-						<div class="ui-buttons type-full">
-							<ul class="ui-buttons-list">
-								<li class="ui-buttons-item">
-									<a href="" class="ui-button ui-basic-button type-primary">증명서 발급하기</a>
-								</li>
-							</ul>
 						</div>
 					</div>
 				</section>
 			</div>
 		</div>
-		<!-- //layer: 카드심사(한도)증명서 발급 -->
+		<!-- //layer: 약관 상세 -->
 	</div>
 
 	<!-- script -->
@@ -102,7 +123,7 @@
 	<script type="text/javascript" src="../js/wcms-data.js"></script>
 	<script>
 		$(function () {
-			uiJSLayer.open('layer-card-certify');
+			uiJSLayer.open('layer-step-info');
 		});
 	</script>
 	<!-- //script -->

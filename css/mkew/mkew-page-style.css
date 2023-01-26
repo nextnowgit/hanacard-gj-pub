@@ -10,4 +10,30 @@
 .type-subscribe .page-title {margin-bottom:14px;}
 .type-subscribe .ui-loading-block {margin:0 auto; }
 
-.padding-top-15 {padding-top:15px;}
+.padding-top-15 {padding-top:15px !important;}
+
+/* card-certify-box */
+.card-certify-box {position:relative; display:flex; gap:6px; flex-wrap: wrap; padding:20px 15px; margin-top:59px; border-radius: 15px; background: var(--gray-20);}
+.card-certify-box::before {content:''; position:absolute; top:-29px; left:50%; margin-left:-48px; width:96px; height:38px; background:url('../../images/mkew/bg-holder.png') no-repeat 0;}
+.card-certify-box .item {width:calc(50% - 6px); font-size:12px; padding:11px 5px; text-align:center; background:#fff; border: 1px solid var(--gray-30); border-radius: 6px; box-sizing:border-box; }
+
+/* getissue-step-info */
+.getissue-step-info {position:relative;}
+.getissue-step-info > ol {position:relative;}
+.getissue-step-info > ol::before {content:''; position:absolute; top:0; left:8px; bottom:235px; width:1px; border-left:1px dotted var(--gray-50); z-index:1;}
+.getissue-step-info > ol > li {position:relative; padding-left:28px;}
+.getissue-step-info > ol > li .num {position:absolute; top:0; left:0; display:inline-block; text-align:center; width:18px; height:18px; color:#fff; font-size:1rem; line-height:18px; border-radius:9px; background:var(--basic); z-index:2;}
+.getissue-step-info > ol > li .step-cont .ui-arrow {display:inline-block; font-size:1.2rem; font-weight:500;}
+.getissue-step-info > ol > li .step-cont .highlight {display:inline; box-shadow: inset 0 -7px rgba(0,164,157, 0.4);}
+.getissue-step-info > ol > li .step-cont .img-wrap {margin-top:15px; margin-left:-28px;}
+.getissue-step-info > ol > li .step-cont .img-wrap img {width:100%;}
+.getissue-step-info > ol > li + li {margin-top:28px;}
+
+.page-tab-panel.has-setting-btn {position:relative;}
+.icon-type-setting {position:absolute; top:50%; margin-top:-11px; right:0; width:22px; height:22px; background:url('../../images/mkew/icon-setting.png') no-repeat 0;;}
+
+.type-mkew-complete {padding-top:90px; }
+.type-mkew-complete .has-com-icon::after {margin-top:0; background-position:center top;}
+.ui-layer__body .type-mkew-complete {padding-top:0;}
+
+.qr-url-word {display:block; word-wrap: break-word; white-space:normal;}

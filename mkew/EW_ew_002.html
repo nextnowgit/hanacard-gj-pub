@@ -41,7 +41,7 @@
 					<div class="ui-buttons">
 						<ul class="ui-buttons-list">
 							<li class="ui-buttons-item">
-								<button type="button" class="ui-button ui-basic-button" data-layer-open="layer-card-certify">카드심사(한도)증명서 발급</button>
+								<button type="button" class="ui-button ui-basic-button" data-layer-open="layer-wallet-fail">전자지갑폐기</button>
 							</li>
 						</ul>
 					</div>
@@ -49,13 +49,13 @@
 			</div>
 		</div>
 
-		<!-- layer: 카드심사(한도)증명서 발급 -->
-		<div class="layer-wrap layer-wrap--slide layer-wrap--select" data-layer="layer-card-certify">
+		<!-- layer: 전자지갑폐기 -->
+		<div class="layer-wrap layer-wrap--slide layer-wrap--range" data-layer="layer-wallet-fail">
 			<div class="layer-container">
 				<section class="ui-layer">
 					<div class="ui-layer__head">
 						<div class="header">
-							<h2 class="header__title">카드심사(한도)증명서 발급</h2>
+							<h2 class="header__title">전자지갑폐기</h2>
 							<div class="header__right">
 								<button type="button" class="ui-button header__button header__button--close" data-role="layerClose">
 									<span class="for-a11y">레이어 닫기</span>
@@ -65,23 +65,33 @@
 					</div>
 					<div class="ui-layer__body">
 						<div class="ui-layer__body-inner">
-							<p class="basic-text">카드심사(한도)에 필요한 증명서를 한꺼번에 발급할게요.</p>
-
-							<div class="card-certify-box">
-								<span class="item">소득금액증명원</span>
-								<span class="item">건강보험료납부확인서</span>
-								<span class="item">건강보험자격득실확인서</span>
-								<span class="item">건강보험자격확인서</span>
-								<span class="item">국내거소신고사실증명</span>
-								<span class="item">외국인등록사실증명</span>
+							<div class="page-contents type-mkew-complete">
+								<p class="has-com-icon type-icon-fail"></p>
+								<p class="large-text align-center margin-top-20">
+									전자지갑을 폐기할까요?
+								</p>
+			
+								<div class="page-section-group type-line align-center">
+									<p class="basic-text color-blur">
+										전자지갑폐기는 폐기 신청 후 즉시 처리되며,<br>
+										이전에 발급 받으셨던 전자증명서도<br>
+										함께 폐기됩니다.
+									</p>
+									<p class="basic-text color-blur margin-top-15">
+										폐기 후 바로 재발급 받으실 수 있습니다.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 					<div class="ui-layer__foot">
-						<div class="ui-buttons type-full">
+						<div class="ui-buttons">
 							<ul class="ui-buttons-list">
+								<li class="ui-buttons-item type-narrow">
+									<button type="button" class="ui-button ui-basic-button">아니오</button>
+								</li>
 								<li class="ui-buttons-item">
-									<a href="" class="ui-button ui-basic-button type-primary">증명서 발급하기</a>
+									<a href="" class="ui-basic-button type-primary" role="button">네</a>
 								</li>
 							</ul>
 						</div>
@@ -89,7 +99,7 @@
 				</section>
 			</div>
 		</div>
-		<!-- //layer: 카드심사(한도)증명서 발급 -->
+		<!-- //layer: 전자지갑폐기 -->
 	</div>
 
 	<!-- script -->
@@ -97,12 +107,13 @@
 	<script type="text/javascript" src="../js/swiper.min.js"></script>
 	<script type="text/javascript" src="../js/rangeslider.min.js"></script>
 	<script type="text/javascript" src="../js/highcharts.js"></script>
-	<script type="text/javascript" src="../js/duet-date-picker/duet.js"></script>
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@duetds/date-picker@1.4.0/dist/duet/duet.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/@duetds/date-picker@1.4.0/dist/duet/duet.js"></script>
 	<script type="text/javascript" src="../js/ui-script.js"></script>
 	<script type="text/javascript" src="../js/wcms-data.js"></script>
 	<script>
 		$(function () {
-			uiJSLayer.open('layer-card-certify');
+			uiJSLayer.open('layer-wallet-fail');
 		});
 	</script>
 	<!-- //script -->

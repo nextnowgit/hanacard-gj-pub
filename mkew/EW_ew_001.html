@@ -41,7 +41,7 @@
 					<div class="ui-buttons">
 						<ul class="ui-buttons-list">
 							<li class="ui-buttons-item">
-								<button type="button" class="ui-button ui-basic-button" data-layer-open="layer-card-certify">카드심사(한도)증명서 발급</button>
+								<button type="button" class="ui-button ui-basic-button" data-layer-open="layer-wallet-info">전자지갑정보</button>
 							</li>
 						</ul>
 					</div>
@@ -49,13 +49,13 @@
 			</div>
 		</div>
 
-		<!-- layer: 카드심사(한도)증명서 발급 -->
-		<div class="layer-wrap layer-wrap--slide layer-wrap--select" data-layer="layer-card-certify">
+		<!-- layer: 전자지갑정보 -->
+		<div class="layer-wrap layer-wrap--slide layer-wrap--range" data-layer="layer-wallet-info">
 			<div class="layer-container">
 				<section class="ui-layer">
 					<div class="ui-layer__head">
 						<div class="header">
-							<h2 class="header__title">카드심사(한도)증명서 발급</h2>
+							<h2 class="header__title"><span class="color-primary">홍길동</span>님의<br>전자지갑주소 QR코드예요.</h2>
 							<div class="header__right">
 								<button type="button" class="ui-button header__button header__button--close" data-role="layerClose">
 									<span class="for-a11y">레이어 닫기</span>
@@ -65,15 +65,14 @@
 					</div>
 					<div class="ui-layer__body">
 						<div class="ui-layer__body-inner">
-							<p class="basic-text">카드심사(한도)에 필요한 증명서를 한꺼번에 발급할게요.</p>
+							<div class="qr-code">
+								<img src="../images/_dummy/qr-code.png" alt="QR 코드">
+							</div>
 
-							<div class="card-certify-box">
-								<span class="item">소득금액증명원</span>
-								<span class="item">건강보험료납부확인서</span>
-								<span class="item">건강보험자격득실확인서</span>
-								<span class="item">건강보험자격확인서</span>
-								<span class="item">국내거소신고사실증명</span>
-								<span class="item">외국인등록사실증명</span>
+							<p class="basic-text margin-top-20">전자문서지갑 주소</p>
+
+							<div class="form-detail-box align-center margin-top-10">
+								<p class="form-detail-item default-text color-blur qr-url-word">13TCj5Pu9kyBXdR9jx[QYwXeBo91MrKdUkJC3d6Q</p>
 							</div>
 						</div>
 					</div>
@@ -81,7 +80,10 @@
 						<div class="ui-buttons type-full">
 							<ul class="ui-buttons-list">
 								<li class="ui-buttons-item">
-									<a href="" class="ui-button ui-basic-button type-primary">증명서 발급하기</a>
+									<a href="" class="ui-basic-button type-primary" role="button">주소 복사하기</a>
+								</li>
+								<li class="ui-buttons-item">
+									<button type="button" class="default-text ui-arrow type-black">전자문서지갑 주소 폐기</button>
 								</li>
 							</ul>
 						</div>
@@ -89,7 +91,7 @@
 				</section>
 			</div>
 		</div>
-		<!-- //layer: 카드심사(한도)증명서 발급 -->
+		<!-- //layer: 전자지갑정보 -->
 	</div>
 
 	<!-- script -->
@@ -97,12 +99,13 @@
 	<script type="text/javascript" src="../js/swiper.min.js"></script>
 	<script type="text/javascript" src="../js/rangeslider.min.js"></script>
 	<script type="text/javascript" src="../js/highcharts.js"></script>
-	<script type="text/javascript" src="../js/duet-date-picker/duet.js"></script>
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@duetds/date-picker@1.4.0/dist/duet/duet.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/@duetds/date-picker@1.4.0/dist/duet/duet.js"></script>
 	<script type="text/javascript" src="../js/ui-script.js"></script>
 	<script type="text/javascript" src="../js/wcms-data.js"></script>
 	<script>
 		$(function () {
-			uiJSLayer.open('layer-card-certify');
+			uiJSLayer.open('layer-wallet-info');
 		});
 	</script>
 	<!-- //script -->
