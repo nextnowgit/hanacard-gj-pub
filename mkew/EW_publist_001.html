@@ -71,13 +71,13 @@
 					<div class="page-section margin-top-30">
 						<div class="ui-radio-group type-panel">
 							<div class="ui-radio-block type-box">
-								<input type="radio" class="ui-radio" name="radioPanel1" id="radioPanel1-1" checked/>
+								<input type="radio" class="ui-radio" name="radioPanel1" id="radioPanel1-1" />
 								<label for="radioPanel1-1" class="ui-label">
 									<span class="ui-label-text">발급현황</span>
 								</label>
 							</div>
 							<div class="ui-radio-block type-box">
-								<input type="radio" class="ui-radio" name="radioPanel1" id="radioPanel1-2"  />
+								<input type="radio" class="ui-radio" name="radioPanel1" id="radioPanel1-2" checked />
 								<label for="radioPanel1-2" class="ui-label">
 									<span class="ui-label-text">제출현황</span>
 								</label>
@@ -95,116 +95,122 @@
 							<button type="button" class="ui-arrow type-small type-black">전체</button>
 						</div>
 
-						<div class="form-detail margin-top-15">
-							<div class="mylist-wrap">
-								<!-- 아코디언 타입 -->
-								<div class="mylist-list accordion-version js-ui-accordion">
-									<div class="js-ui-accordion__item">
-										<div class="usage-default-block mylist-title">
-											<div class="ui-checkbox-block type-large">
-												<input type="checkbox" class="ui-checkbox" id="checkboxLarge0">
-												<label for="checkboxLarge0" class="ui-label">
-													<span class="ui-checkbox-object"></span>
-												</label>
-											</div>
-											<button type="button" class="mylist-item js-ui-accordion__opener">
-												<p class="basic-text">카드심사(한도)서류 6건</p>
-												<p class="margin-top-6">
-													<span class="default-text color-blur">발급일 2022.12.30</span>
-												</p>
-											</button>
-										</div>
-										<div class="js-ui-accordion__layer">
-											<!-- 링크 타입 반복 -->
-											<div class="accordion-contents ">
-												<div class="usage-default-block">
-													<div class="ui-checkbox-block type-large">
-														<input type="checkbox" class="ui-checkbox" id="checkboxLarge1">
-														<label for="checkboxLarge1" class="ui-label">
-															<span class="ui-checkbox-object"></span>
-														</label>
-													</div>
-													<a href="" class="mylist-item">
-														<p class="basic-text ui-arrow-block">가족관계증명서</p>
-														<p class="d-flex d-justify-between margin-top-6">
-															<span class="default-text color-blur">발급일 2022.12.30</span>
-															<span class="default-text color-blur">남은 <span class="color-secondary font-weight-medium">10</span>일 동안 열람</span>
-														</p>
-													</a>
-												</div>
-											</div>
-											<!-- // 링크 타입 반복 -->
-											<div class="accordion-contents ">
-												<div class="usage-default-block">
-													<div class="ui-checkbox-block type-large">
-														<input type="checkbox" class="ui-checkbox" id="checkboxLarge1">
-														<label for="checkboxLarge1" class="ui-label">
-															<span class="ui-checkbox-object"></span>
-														</label>
-													</div>
-													<a href="" class="mylist-item">
-														<p class="basic-text ui-arrow-block">가족관계증명서</p>
-														<p class="d-flex d-justify-between margin-top-6">
-															<span class="default-text color-blur">발급일 2022.12.30</span>
-															<span class="default-text color-blur">남은 <span class="color-secondary font-weight-medium">10</span>일 동안 열람</span>
-														</p>
-													</a>
-												</div>
-											</div>
-										</div>
+						<div class="publist-wrap margin-top-15">
+							<div class="publist-list">
+								<div class="form-detail-item">
+									<div class="ui-checkbox-block type-large">
+										<input type="checkbox" class="ui-checkbox" id="checkboxLarge0">
+										<label for="checkboxLarge0" class="ui-label">
+											<span class="ui-checkbox-object"></span>
+											<span class="ui-label-text">주민등록표등본</span>
+										</label>
 									</div>
+									<span class="ui-badge color-primary">읽음</span>
 								</div>
+								<dl class="form-detail-list type-text-default">
+									<div class="form-detail-item">
+										<dt class="form-detail-title">열람번호</dt>
+										<dd class="form-detail-group"><strong>666666</strong></dd>
+									</div>
+									<div class="form-detail-item">
+										<dt class="form-detail-title">받는곳</dt>
+										<dd class="form-detail-group"><strong>하나카드</strong></dd>
+									</div>
+									<div class="form-detail-item">
+										<dt class="form-detail-title">제출일</dt>
+										<dd class="form-detail-group"><strong>2022.12.10</strong></dd>
+									</div>
+								</dl>
+							</div>
 
-								<!-- 링크 타입 -->
-								<div class="mylist-list usage-default-block">
+							<div class="publist-list">
+								<div class="form-detail-item">
 									<div class="ui-checkbox-block type-large">
 										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1">
 										<label for="checkboxLarge1" class="ui-label">
 											<span class="ui-checkbox-object"></span>
+											<span class="ui-label-text">주민등록표등본</span>
 										</label>
 									</div>
-									<a href="" class="mylist-item">
-										<p class="basic-text ui-arrow-block">가족관계증명서</p>
-										<p class="d-flex d-justify-between margin-top-6">
-											<span class="default-text color-blur">발급일 2022.12.30</span>
-											<span class="default-text color-blur">남은 <span class="color-secondary font-weight-medium">10</span>일 동안 열람</span>
-										</p>
-									</a>
+									<span class="ui-badge color-wrong">안읽음</span>
+								</div>
+								<dl class="form-detail-list type-text-default">
+									<div class="form-detail-item">
+										<dt class="form-detail-title">열람번호</dt>
+										<dd class="form-detail-group"><strong>666666</strong></dd>
+									</div>
+									<div class="form-detail-item">
+										<dt class="form-detail-title">받는곳</dt>
+										<dd class="form-detail-group"><strong>하나카드</strong></dd>
+									</div>
+									<div class="form-detail-item">
+										<dt class="form-detail-title">제출일</dt>
+										<dd class="form-detail-group"><strong>2022.12.10</strong></dd>
+									</div>
+								</dl>
+							</div>
+
+							<div class="publist-list accordion-version js-ui-accordion">
+								<div class="js-ui-accordion__item">
+									<div class="publist-title">
+										<div class="form-detail-item js-ui-accordion__opener">
+											<div class="ui-checkbox-block type-large ">
+												<input type="checkbox" class="ui-checkbox" id="checkboxLarge3">
+												<label for="checkboxLarge3" class="ui-label">
+													<span class="ui-checkbox-object"></span>
+													<span class="ui-label-text">카드심사(한도)서류 6건</span>
+												</label>
+											</div>
+										</div>
+
+										<dl class="form-detail-list type-text-default">
+											<div class="form-detail-item">
+												<dt class="form-detail-title">열람번호</dt>
+												<dd class="form-detail-group"><strong>666666</strong></dd>
+											</div>
+											<div class="form-detail-item">
+												<dt class="form-detail-title">받는곳</dt>
+												<dd class="form-detail-group"><strong>하나카드</strong></dd>
+											</div>
+											<div class="form-detail-item">
+												<dt class="form-detail-title">제출일</dt>
+												<dd class="form-detail-group"><strong>2022.12.10</strong></dd>
+											</div>
+										</dl>
+									</div>
+									
+									<div class="js-ui-accordion__layer">
+										<div class="accordion-contents ">
+											<div class="form-detail-item">
+												<div class="ui-checkbox-block type-large">
+													<input type="checkbox" class="ui-checkbox" id="checkboxLarge0301">
+													<label for="checkboxLarge0301" class="ui-label">
+														<span class="ui-checkbox-object"></span>
+														<span class="ui-label-text">소득금액증명원</span>
+													</label>
+												</div>
+												<span class="ui-badge color-primary">읽음</span>
+											</div>
+										</div>
+										<div class="accordion-contents">
+											<div class="form-detail-item">
+												<div class="ui-checkbox-block type-large">
+													<input type="checkbox" class="ui-checkbox" id="checkboxLarge0302">
+													<label for="checkboxLarge0302" class="ui-label">
+														<span class="ui-checkbox-object"></span>
+														<span class="ui-label-text">건강보험료납부확인서</span>
+													</label>
+												</div>
+												<span class="ui-badge color-wrong">안읽음</span>
+											</div>
+										</div>
+									</div>
 								</div>
 								
-								<div class="mylist-list usage-default-block">
-									<div class="ui-checkbox-block type-large">
-										<input type="checkbox" class="ui-checkbox" id="checkboxLarge2">
-										<label for="checkboxLarge2" class="ui-label">
-											<span class="ui-checkbox-object"></span>
-										</label>
-									</div>
-									<a href="" class="mylist-item">
-										<p class="basic-text ui-arrow-block">가족관계증명서</p>
-										<p class="d-flex d-justify-between margin-top-6">
-											<span class="default-text color-blur">발급일 2022.12.30</span>
-											<span class="default-text color-blur">남은 <span class="color-secondary font-weight-medium">10</span>일 동안 열람</span>
-										</p>
-									</a>
-								</div>
-
-								<div class="mylist-list usage-default-block">
-									<div class="ui-checkbox-block type-large">
-										<input type="checkbox" class="ui-checkbox" id="checkboxLarge3">
-										<label for="checkboxLarge3" class="ui-label">
-											<span class="ui-checkbox-object"></span>
-										</label>
-									</div>
-									<a href="" class="mylist-item">
-										<p class="basic-text ui-arrow-block">가족관계증명서</p>
-										<p class="d-flex d-justify-between margin-top-6">
-											<span class="default-text color-blur">발급일 2022.12.30</span>
-											<span class="default-text color-blur">남은 <span class="color-secondary font-weight-medium">10</span>일 동안 열람</span>
-										</p>
-									</a>
-								</div>
 							</div>
-						</div>
+						</div> 
+
+						<p class="ui-notice">받는 곳에서 열람하지 않은 경우만 취소할 수 있습니다.</p>
 					</div>
 				</div>
 
@@ -216,7 +222,7 @@
 								<!-- <button type="button" class="ui-button ui-basic-button">삭제</button> -->
 							</li>
 							<li class="ui-buttons-item">
-								<button type="button" class="ui-button ui-basic-button type-gray" disabled="">증명서 발급하기</button>
+								<button type="button" class="ui-button ui-basic-button type-gray" disabled="">기관제출 취소하기</button>
 								<!-- <button type="button" class="ui-button ui-basic-button type-primary">기관제출하기</button> -->
 							</li>
 						</ul>

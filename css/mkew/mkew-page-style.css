@@ -1,8 +1,10 @@
 /* type-certificate-list */
 .type-certificate-list .ui-radio-block {position:relative; min-height:92px;}
-.type-certificate-list .ui-radio-block .ui-label {padding:0;}
+.type-certificate-list .ui-radio-block .ui-label {padding:0; flex-direction: column;}
+.type-certificate-list.ui-radio-group.type-grid:not(.type-grid-basic).type-col2 .ui-label {padding-top:30px; }
 .type-certificate-list .ui-radio-block .icon-gov {display:inline-block; position:absolute; top:12px; left:15px; width:40px; height:14px; background:url('../../images/mkew/logo-gov.png') no-repeat 0; background-size:100%;}
 .type-certificate-list .ui-radio-block .icon-court {display:inline-block; position:absolute; top:12px; left:15px; width:40px; height:14px; background:url('../../images/mkew/logo-court.png') no-repeat 0; background-size:100%;}
+
 
 .type-subscribe {text-align:center; padding-top:90px;}
 .type-subscribe .has-com-icon::after {margin-top:0; margin-bottom:20px;}
@@ -37,3 +39,41 @@
 .ui-layer__body .type-mkew-complete {padding-top:0;}
 
 .qr-url-word {display:block; word-wrap: break-word; white-space:normal;}
+
+.mylist-wrap .mylist-list { overflow: hidden; border: 1px solid var(--gray-30); border-radius: 6px; padding:20px;}
+.mylist-wrap .mylist-list .mylist-item {width:100%;}
+.mylist-wrap .mylist-list + .mylist-list {margin-top:10px;}
+.mylist-wrap .mylist-list.accordion-version {padding:0;}
+.mylist-wrap .mylist-list.accordion-version .mylist-title {padding:20px; }
+.mylist-wrap .mylist-list.accordion-version .accordion-contents {padding:20px; border-top: 1px solid var(--gray-30); background: var(--gray-20);}
+
+.publist-wrap .publist-list {border: 1px solid var(--gray-30); border-radius: 6px; padding:20px;}
+.publist-wrap .publist-list .form-detail-list {padding:25px 0 0 25px;}
+.publist-wrap .publist-list + .publist-list {margin-top:10px;}
+.publist-wrap .publist-list.accordion-version {padding:0;}
+.publist-wrap .publist-list.accordion-version .publist-title {padding:20px; }
+.publist-wrap .publist-list.accordion-version .accordion-contents {padding:20px; border-top: 1px solid var(--gray-30); background: var(--gray-20);}
+
+
+.mkew-status-wrap .mkew-status-list {border: 1px solid var(--gray-30); border-radius: 6px; padding:20px;}
+.mkew-status-wrap .mkew-status-list .form-detail-list {padding:25px 0 0 25px;}
+.mkew-status-wrap .mkew-status-list + .mkew-status-list {margin-top:10px;}
+.mkew-status-wrap .mkew-status-list.accordion-version {padding:0;}
+.mkew-status-wrap .mkew-status-list.accordion-version .mkew-status-title {padding:20px; }
+.mkew-status-wrap .mkew-status-list.accordion-version .mkew-status-title .js-ui-accordion__opener::after {top:10px; }
+.mkew-status-wrap .accordion-contents {padding:20px; background: var(--gray-20); border-top: 1px solid var(--gray-30);}
+.mkew-status-wrap .mkew-status-detail {
+	display: flex;
+	-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+}
+.mkew-status-wrap .mkew-status-detail .ui-notice {margin-top:0;}
+.mkew-status-wrap .mkew-status-detail + .mkew-status-detail {margin-top:20px;}
+
+.d-justify-between {
+	-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
