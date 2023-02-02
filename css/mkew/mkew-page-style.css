@@ -80,3 +80,6 @@
 
 .type-mkew-issue .ui-checkbox-block,
 .type-mkew-issue .ui-radio-block {margin-top:15px;}
+
+.mkew-issue-wrap .issue-list {display: flex; border: 1px solid var(--gray-30); border-radius: 6px; padding:20px;}
+.mkew-issue-wrap .issue-list .form-detail-list {width:100%;}
