@@ -52,52 +52,106 @@
 
 			<div class="contents-wrap">
 				<div class="page-contents type-mkew-issue">
-					<h2 class="page-title">사업자등록증</h2>
+					<h2 class="page-title">국내거소신고사실증명</h2>
 
 					<div class="page-section">
 						<div class="form-list">
 							<div class="form-item">
 								<div class="form-title">
-									<strong class="title">사업자등록번호<span class="color-point"> (필수)</span></strong> 
+									<strong class="title">체류지 선택<span class="color-point"> (필수)</span></strong> 
 								</div>
 
 								<div class="form-group">
-									<div class="ui-input-block type-use-delete">
-										<input type="text" class="ui-input" title="사업자등록번호 입력" placeholder="‘-’없이 10자리를 입력해 주세요."required="">
-										<button type="button" class="ui-button ui-input-delete">
-											<span class="for-a11y">입력 내용 지우기</span>
-										</button>
+									<div class="ui-radio-block type-circle type-large">
+										<input type="radio" class="ui-radio" name="radio1" id="radio1-1">
+										<label for="radio1-1" class="ui-label">
+											<span class="ui-radio-object"></span>
+											<span class="ui-label-text medium-text">현재주소</span>
+										</label>
+									</div>
+									<div class="ui-radio-block type-circle type-large">
+										<input type="radio" class="ui-radio" name="radio1" id="radio1-2">
+										<label for="radio1-2" class="ui-label">
+											<span class="ui-radio-object"></span>
+											<span class="ui-label-text medium-text">최근3년</span>
+										</label>
+									</div>
+									<div class="ui-radio-block type-circle type-large">
+										<input type="radio" class="ui-radio" name="radio1" id="radio1-2">
+										<label for="radio1-2" class="ui-label">
+											<span class="ui-radio-object"></span>
+											<span class="ui-label-text medium-text">전체주소</span>
+										</label>
 									</div>
 								</div>
 							</div>
-							
-							<div class="form-item">
-								<div class="form-title">
-									<strong class="title">사용용도 <span class="color-point"> (필수)</span></strong> 
-								</div>
-
-								<div class="form-group">
-									<div class="ui-input-block type-use-delete">
-										<input type="text" class="ui-input" title="사용용도 입력" placeholder="선택해 주세요." required="">
-										<button type="button" class="ui-button ui-input-delete">
-											<span class="for-a11y">입력 내용 지우기</span>
-										</button>
-									</div>
-								</div>
-							</div>
 
 							<div class="form-item">
 								<div class="form-title">
-									<strong class="title">공개 및 표기여부 (필수)<span class="color-point"> (필수)</span></strong> 
+									<strong class="title">공개 및 표기여부<span class="color-point"> (필수)</span></strong> 
 								</div>
 
 								<div class="form-group">
 									<div class="ui-checkbox-block type-large">
-										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1-1" checked>
+										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1-1">
 										<label for="checkboxLarge1-1" class="ui-label">
 											<span class="ui-checkbox-object"></span>
-											<span class="ui-label-text">주민등록번호 뒷자리 표시</span>
+											<span class="ui-label-text medium-text">동거가족</span>
 										</label>
+									</div>
+									<div class="ui-checkbox-block type-large">
+										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1-2">
+										<label for="checkboxLarge1-2" class="ui-label">
+											<span class="ui-checkbox-object"></span>
+											<span class="ui-label-text medium-text">외국인등록번호 뒷자리</span>
+										</label>
+									</div>
+									<div class="ui-checkbox-block type-large">
+										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1-3">
+										<label for="checkboxLarge1-3" class="ui-label">
+											<span class="ui-checkbox-object"></span>
+											<span class="ui-label-text medium-text">과거 등록번호</span>
+										</label>
+									</div>
+									<div class="ui-checkbox-block type-large">
+										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1-4">
+										<label for="checkboxLarge1-4" class="ui-label">
+											<span class="ui-checkbox-object"></span>
+											<span class="ui-label-text medium-text">말소된 주민등록번호</span>
+										</label>
+									</div>
+									<div class="ui-checkbox-block type-large">
+										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1-5">
+										<label for="checkboxLarge1-5" class="ui-label">
+											<span class="ui-checkbox-object"></span>
+											<span class="ui-label-text medium-text">과거 성명변경</span>
+										</label>
+									</div>
+									<div class="ui-checkbox-block type-large">
+										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1-6">
+										<label for="checkboxLarge1-6" class="ui-label">
+											<span class="ui-checkbox-object"></span>
+											<span class="ui-label-text medium-text">과거 체류자격 변동사항</span>
+										</label>
+									</div>
+									<div class="ui-checkbox-block type-large">
+										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1-7">
+										<label for="checkboxLarge1-7" class="ui-label">
+											<span class="ui-checkbox-object"></span>
+											<span class="ui-label-text medium-text">과거 체류지 변동사항</span>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-item">
+								<div class="form-title">
+									<strong class="title">발급용도<span class="color-point"> (필수)</span></strong> 
+								</div>
+
+								<div class="form-group">
+									<div class="ui-select-block type-placeholder">
+										<button type="button" class="ui-button ui-select" title="발급용도 선택">선택해 주세요.</button>
 									</div>
 								</div>
 							</div>

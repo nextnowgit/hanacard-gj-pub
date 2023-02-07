@@ -52,7 +52,7 @@
 
 			<div class="contents-wrap">
 				<div class="page-contents type-mkew-issue">
-					<h2 class="page-title">사업자등록증</h2>
+					<h2 class="page-title">표준재무제표증명</h2>
 
 					<div class="page-section">
 						<div class="form-list">
@@ -70,18 +70,39 @@
 									</div>
 								</div>
 							</div>
-							
+
 							<div class="form-item">
 								<div class="form-title">
-									<strong class="title">사용용도 <span class="color-point"> (필수)</span></strong> 
+									<strong class="title">사용용도<span class="color-point"> (필수)</span></strong> 
 								</div>
 
 								<div class="form-group">
-									<div class="ui-input-block type-use-delete">
-										<input type="text" class="ui-input" title="사용용도 입력" placeholder="선택해 주세요." required="">
-										<button type="button" class="ui-button ui-input-delete">
-											<span class="for-a11y">입력 내용 지우기</span>
-										</button>
+									<div class="ui-select-block type-placeholder">
+										<button type="button" class="ui-button ui-select" title="사용용도 선택">선택해 주세요.</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-item">
+								<div class="form-title">
+									<strong class="title">제출처<span class="color-point"> (필수)</span></strong> 
+								</div>
+
+								<div class="form-group">
+									<div class="ui-select-block type-placeholder">
+										<button type="button" class="ui-button ui-select" title="제출처 선택">선택해 주세요.</button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="form-item">
+								<div class="form-title">
+									<strong class="title">과세년도<span class="color-point"> (필수)</span></strong> 
+								</div>
+
+								<div class="form-group">
+									<div class="ui-select-block type-placeholder">
+										<button type="button" class="ui-button ui-select" title="과세년도 선택">선택해 주세요.</button>
 									</div>
 								</div>
 							</div>
@@ -92,11 +113,18 @@
 								</div>
 
 								<div class="form-group">
-									<div class="ui-checkbox-block type-large">
-										<input type="checkbox" class="ui-checkbox" id="checkboxLarge1-1" checked>
-										<label for="checkboxLarge1-1" class="ui-label">
-											<span class="ui-checkbox-object"></span>
-											<span class="ui-label-text">주민등록번호 뒷자리 표시</span>
+									<div class="ui-radio-block type-circle">
+										<input type="radio" class="ui-radio" name="radio1" id="radio1-1">
+										<label for="radio1-1" class="ui-label">
+											<span class="ui-radio-object"></span>
+											<span class="ui-label-text">공개</span>
+										</label>
+									</div>
+									<div class="ui-radio-block type-circle">
+										<input type="radio" class="ui-radio" name="radio1" id="radio1-2">
+										<label for="radio1-2" class="ui-label">
+											<span class="ui-radio-object"></span>
+											<span class="ui-label-text">비공개</span>
 										</label>
 									</div>
 								</div>
