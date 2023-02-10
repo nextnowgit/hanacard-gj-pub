@@ -92,3 +92,45 @@
 .mkew-issue-wrap .issue-list .form-detail-list {width:100%;}
 
 .type-range-year-month .ui-select {padding-right:18px;}
+
+
+.certify-link-list {
+    display:flex;
+	flex-wrap: wrap;
+    margin-top:-25px;
+}
+.certify-link-list .link {
+	-webkit-box-flex: 0;
+	-ms-flex: none;
+	flex: none;
+	text-align: center;
+    width:50%;
+    margin-top:25px;
+}
+.certify-link-list .link .button {
+	display: block;
+	width: 100%;
+	font-size: 1.2rem;
+	line-height: 1.7rem;
+}
+.certify-link-list .link .button::before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto 8px;
+	background: #fff no-repeat 50% 0 / 100% auto;
+	border-radius: 12px;
+}
+.certify-link-list .link.type-oneSign .button::before {
+	background-image: url('../../images/mkew/icon-certify-oneSign.png');
+}
+.certify-link-list .link.type-pass .button::before {
+	background-image: url('../../images/mkew/icon-certify-pass.png');
+}
+.certify-link-list .link.type-toss .button::before {
+	background-image: url('../../images/mkew/icon-certify-toss.png');
+}
+.certify-link-list .link.type-naver .button::before {
+	background-image: url('../../images/mkew/icon-certify-naver.png');
+}
