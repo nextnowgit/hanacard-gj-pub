@@ -31,8 +31,10 @@
 .getissue-step-info > ol > li .step-cont .img-wrap img {width:100%;}
 .getissue-step-info > ol > li + li {margin-top:28px;}
 
-.page-tab-panel.has-setting-btn {position:relative;}
-.icon-type-setting {position:absolute; top:50%; margin-top:-11px; right:0; width:22px; height:22px; background:url('../../images/mkew/icon-setting.png') no-repeat 0;;}
+.page-tab-panel.has-setting-btn {position:relative; padding:0 24px; background-color:#fff;}
+.icon-type-setting {position:absolute; top:50%; margin-top:-11px; right:24px; width:22px; height:22px; background:url('../../images/mkew/icon-setting.png') no-repeat 0;;}
+
+.fix-top-wrap.type-has-pagetab ~ .contents-wrap {padding-top:104px;}
 
 .type-mkew-complete {padding-top:90px; }
 .type-mkew-complete .has-com-icon::after {margin-top:0; background-position:center top;}

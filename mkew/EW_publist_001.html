@@ -37,7 +37,8 @@
 	<div id="wrap">
 		<div class="layout-wrap">
 			<!-- fix top area -->
-			<div class="fix-top-wrap">
+			<!-- 2023-02-09 퍼블수정 : 탭 위치 변경으로 인한 type-has-pagetab 클래스 추가 -->
+			<div class="fix-top-wrap type-has-pagetab">
 				<header class="header">
 					<div class="header-left">
 						<button type="button" class="header-button type-back"><span class="for-a11y">이전</span></button>
@@ -48,26 +49,27 @@
 						<button type="button" class="header-button type-menu"><span class="for-a11y">메뉴</span></button>
 					</div>
 				</header>
+
+				<!-- 2023-02-09 퍼블수정 : 탭 위치 변경 -->
+				<div class="page-tab-panel has-setting-btn">
+					<div class="ui-tab">
+						<ul class="ui-tab-list">
+							<li class="ui-tab-item">
+								<a href="" class="ui-tab-link" role="button" >증명서 발급</a>
+							</li>
+							<li class="ui-tab-item">
+								<a href="" class="ui-tab-link is-active" role="button" title="현재 메뉴 선택 됨">내 증명서 (11)</a>
+							</li>
+						</ul>
+					</div>
+
+					<a href="" class="icon-type-setting" role="button"><span class="for-a11y">전자문서지갑</span></a>
+				</div>
 			</div>
 			<!-- //fix top area -->
 
 			<div class="contents-wrap">
 				<div class="page-contents has-no-top-padding type-mylist">
-					<div class="page-tab-panel has-setting-btn">
-						<div class="ui-tab">
-							<ul class="ui-tab-list">
-								<li class="ui-tab-item">
-									<a href="" class="ui-tab-link" role="button" >증명서 발급</a>
-								</li>
-								<li class="ui-tab-item">
-									<a href="" class="ui-tab-link is-active" role="button" title="현재 메뉴 선택 됨">내 증명서 (11)</a>
-								</li>
-							</ul>
-						</div>
-
-						<a href="" class="icon-type-setting" role="button"><span class="for-a11y">전자문서지갑</span></a>
-					</div>
-
 					<div class="page-section margin-top-30">
 						<div class="ui-radio-group type-panel">
 							<div class="ui-radio-block type-box">
