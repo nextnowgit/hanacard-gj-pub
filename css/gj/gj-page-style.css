@@ -5,6 +5,7 @@
 .alert-electronic-push .type-icon-alarm::after {background-position:center top;}
 .alert-electronic-push .type-icon-suggest::after {background-position:center top;}
 .alert-electronic-push .type-icon-fail::after {background-position:center top;}
+.alert-electronic-push .type-icon-fail-x::after {background-image:url('../../images/gj/ic-com-fail-x.svg'); background-position:center top;}
 
 .type-gj-complete {padding-top:90px; }
 .type-gj-complete .has-com-icon::after {margin-top:0; background-position:center top;}
