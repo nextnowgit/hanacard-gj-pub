@@ -64,3 +64,5 @@
 .type-gj-detail .accordion-item + .accordion-item {margin-top:11px;}
 
 .link-item.type-no-line-bottom {border-bottom:none;}
+
+.blur-empty-image.type-gj::before {padding-top: 125%; background-image: url('../../images/gj/blur-empty-gj.png');}
