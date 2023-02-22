@@ -142,3 +142,5 @@
 	flex: none;
 	min-width: 23%;
 }
+
+.type-mylist .form-title .ui-select-block {padding-right:20px;}
