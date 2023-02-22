@@ -145,3 +145,6 @@
 
 .type-mylist .form-title .ui-select-block {padding-right:20px;}
 .ui-layer.type-height-fix {height:441px;}
+
+.is-text-input-focus .page-EW-main-search .ui-input-block.type-search .ui-input {border: 1px solid var(--secondary-dark); box-shadow: 1.5px 3px 5px 0 rgba(217, 223, 235, 0.3);}
+.is-text-input-focus .page-EW-main-search .ui-input-block.type-search .ui-input-search {background: url('../../images/mkew/ic-header-search-secondary-dark.svg') no-repeat 5px 50%;}
