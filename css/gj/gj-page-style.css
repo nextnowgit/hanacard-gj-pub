@@ -14,11 +14,8 @@
 	.alert-electronic-push .electronic-notice img {width:100%;}
 }
 
-.banner-promotion {display:flex; align-items: center; padding: 19px 20px; margin:10px 0 25px; border-radius: 10px; background-color:#f5f4f1;}
-.banner-promotion .type-icon-promotion {margin-right:20px; background-image:url('../../images/gj/ic-card-size-44.svg');}
-.banner-promotion .text-promotion {font-size:1.5rem; font-weight:300; line-height:2rem;}
-.banner-promotion .text-promotion span {display:block;}
-.banner-promotion .text-promotion .date {display:block; font-weight:300; font-size:1.1rem;}
+.banner-promotion {padding: 0; margin:10px 0 25px; }
+.banner-promotion img {width:100%;}
 
 .form-detail-block.type-disabled,
 .form-detail-block.type-disabled .usage-default-etc-item,
