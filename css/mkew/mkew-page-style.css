@@ -53,8 +53,11 @@
 .publist-wrap .publist-list.checked {border: 1px solid var(--primary); }
 .publist-wrap .publist-list .form-detail-list {padding:25px 0 0 25px;}
 .publist-wrap .publist-list + .publist-list {margin-top:10px;}
+.publist-wrap .publist-list .form-detail-item {position:relative; padding-right:70px;}
+.publist-wrap .publist-list .form-detail-item .ui-badge {position:absolute; top:0; right:0;}
 .publist-wrap .publist-list.accordion-version {padding:0;}
 .publist-wrap .publist-list.accordion-version .publist-title {padding:20px; }
+.publist-wrap .publist-list.accordion-version .publist-title > .form-detail-item {padding-right:23px; }
 .publist-wrap .publist-list.accordion-version .accordion-contents {padding:20px; border-top: 1px solid var(--gray-30); background: var(--gray-20);}
 
 
