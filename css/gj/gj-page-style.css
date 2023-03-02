@@ -14,7 +14,7 @@
 	.alert-electronic-push .electronic-notice img {width:100%;}
 }
 
-.banner-promotion {padding: 0; margin:10px 0 25px; }
+.banner-promotion {padding: 0 24px; margin:10px 0 25px; }
 .banner-promotion img {width:100%;}
 
 .form-detail-block.type-disabled,
@@ -42,7 +42,7 @@
     justify-content: space-between;
 }
 
-.box-qr-scan {position:relative; padding: 25px 20px; border-radius: 15px; border: 1px solid var(--gray-30);}
+.box-qr-scan {position:relative; padding: 25px 20px; border-radius: 15px; border: 1px solid var(--gray-30); background-color:#fff;}
 .box-qr-scan .type-icon-qrscan {position:absolute; top:25px; right:20px;  background-image:url('../../images/gj/ic-qrscan-44.svg');}
 .box-qr-scan .qr-info-title {display: block; font-size: 1.7rem; color: var(--basic); font-weight: 500;}
 .box-qr-scan .qr-info-text {font-size: 1.5rem; line-height: 21px; color: var(--gray-70); margin-top:10px;}
@@ -63,3 +63,12 @@
 .link-item.type-no-line-bottom {border-bottom:none;}
 
 .blur-empty-image.type-gj::before {padding-top: 125%; background-image: url('../../images/gj/blur-empty-gj.png');}
+
+.ui-basic-button.type-alarm-button {
+	width: 152px;
+}
+.page-buttons.type-fixed.type-height-fix {border:none;}
+.type-height-fix .use-notice-item {margin-bottom:30px; }
+.type-height-fix .use-notice-item {margin-bottom:30px; }
+.type-height-fix .use-notice-item.js-accordion-opened {margin-bottom:0; }
+.type-height-fix .use-notice-area .use-notice-contents {max-height:85px; overflow-y:auto;}

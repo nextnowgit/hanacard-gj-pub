@@ -50,30 +50,65 @@
 			</div>
 			<!-- //fix top area -->
 
+			
 			<div class="contents-wrap">
-				<div class="page-contents has-no-top-padding">
-					<div class="banner-promotion">
-						<!-- 2023-02-28 퍼블수정 : 배너 이미지로 교체 -->
-						<img src="../images/gj/img-banner-apply.png" alt="">
-					</div>
-					
+				<!-- 2023-03-02 퍼블수정 : 배너 마크업 위치 변경  -->
+				<div class="banner-promotion">
+					<!-- 2023-02-28 퍼블수정 : 배너 이미지로 교체 -->
+					<img src="../images/gj/img-banner-apply.png" alt="">
+				</div>
+				<!-- 2023-03-02 퍼블수정 : 컨텐츠 마크업 변경됨 -->
+				<div class="page-contents">
 					<div class="page-section">
-						<p class="medium-text font-weight-light">깜빡하고 자주 세입금 납부를 잊으셨나요?</p>
+						<div class="alert-electronic-push">
+							<p class="has-com-icon type-icon-alarm"></p>
+							<p class="medium-text font-weight-medium margin-top-20">
+								깜빡하고 자주 세입금 납부를 잊으셨나요?
+							</p>
+							<p class="basic-text font-weight-light margin-top-10">
+								고지서가 도착하면 바로 알려드려요.
+							</p>
+						</div>
 
-						<div class="d-flex d-justify-between margin-top-10">
-							<p class="basic-text font-weight-medium">고지서가 도착하면 바로 알려드려요.</p>
-							<div class="ui-toggle-block">
-								<input type="checkbox" class="ui-toggle" id="checkboxToggle1-1">
-								<label for="checkboxToggle1-1" class="ui-label">
-									<span class="ui-toggle-object"></span>
-								</label>
-							</div>
+						<div class="ui-buttons type-center margin-top-20">
+							<ul class="ui-buttons-list">
+								<li class="ui-buttons-item">
+									<button type="button" class="ui-button ui-basic-button type-primary type-alarm-button">알림신청</button>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 
-				<div class="page-buttons">
-					<div class="box-qr-scan">
+				<div class="page-buttons type-fixed type-height-fix">
+					<div class="use-notice-area js-ui-accordion">
+						<div class="use-notice-item js-ui-accordion__item ">
+							<button type="button" class="use-notice-opener js-ui-accordion__opener">
+								이용안내
+								<span class="for-a11y">
+									상세 내용
+									<span class="open-text">열기</span>
+									<span class="close-text">닫기</span>
+								</span>
+							</button>
+							<div class="use-notice-contents js-ui-accordion__layer">
+								<ul class="info-list">
+									<li class="info-item">서비스를 신청/해지한 다음달부터 전자고지서가 발송돼요. 단, 세외수입은 신청 2영업일 후부터 발송돼요.</li>
+									<li class="info-item">서비스 신청 및 해지는 09:00~22:00에 가능하고, 조회 및 납부는  00:30~23:30에 가능해요.</li>
+									<li class="info-item">올해 월별 서울시 세입금 납부일정은 <a href="" class="color-primary">세금납부일정</a>에서 확인해 주세요. </li>
+									<li class="info-item">하나카드로 납부한 내역은 <a href="" class="color-primary">납부목록</a>에서 확인해 주세요.</li>
+									<li class="info-item">고지서 관련 문의는 과세기관으로 연락 바라며, 납부 결과 확인 및 증명서는 지방세 납부 사이트에서 확인해 주세요.</li>
+									<li class="info-item">세금 납부 후에는 취소 및 결제 변경이 불가능하며, 중복 납부 등 납부 문의는 고지서 내 문의처로 문의해 주세요.</li>
+									<li class="info-item">납부 기간이 지난 고지서는 삭제되며, 납부 가능한 수단이 없거나 열람할 수 없는 경우 지방세 납부 사이트 (위택스, 이택스)에서 확인해 주세요.</li>
+									<li class="info-item">전자 고지서의 효력은 고지 목록에 수신된 시점부터 발생하며, 전자고지서 미확인으로 인한 가산금, 체납 등의 불이익에 대해서는 납부자 책임이니 꼭 전자 고지서를 확인해 주세요.</li>
+									<li class="info-item">전자송달 서류를 5회 연속, 60일 연동 열람하지 않으면 신청이 자동 철회되고 종이 고지서가 발송됩니다. (지방세기본법 시행령 제14조)</li>
+									<li class="info-item">서울시 세입금 납부 전자고지를 받고 싶지 않으시면 <a href="" class="color-primary">해지하기</a>를 눌러주세요. 해지 후라도 다시 신청하실 수 있어요.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="box-qr-scan ">
 						<span class="guide-info-icon type-icon-qrscan"></span>
 						<p class="qr-info-title">간편납부</p>
 						<p class="qr-info-text">
@@ -88,7 +123,6 @@
 							</ul>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		</div>
