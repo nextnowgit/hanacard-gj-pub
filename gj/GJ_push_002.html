@@ -50,7 +50,7 @@
 		</div>
 
 		<!-- layer: 약관동의 -->
-		<div class="layer-wrap layer-wrap--slide layer-wrap--select" data-layer="layer-electronic-push">
+		<div class="layer-wrap layer-wrap--slide layer-wrap--select layer-electronic-push" data-layer="layer-electronic-push">
 			<div class="layer-container">
 				<section class="ui-layer">
 					<div class="ui-layer__head">
@@ -74,8 +74,23 @@
 									납부 기한 잊지 말고 미리 챙겨주세요.
 								</p>
 	
-								<div class="electronic-notice">
-									<img src="../images/gj/img-push-alert.gif" alt="">
+								<div class="electronic-push ">
+									<div class="letter">
+										<div class="text-in">
+											<p class="tit">2023년 1월 등록면허세(면허) 납세 고지서(정기분)</p>
+
+											<dl class="form-detail-list type-text-default">
+												<div class="form-detail-item">
+													<dt class="form-detail-title">납기내 금액</dt>
+													<dd class="form-detail-group color-primary">6,000 원</dd>
+												</div>
+												<div class="form-detail-item">
+													<dt class="form-detail-title">납부기한</dt>
+													<dd class="form-detail-group">2023.01.13</dd>
+												</div>
+											</dl>
+										</div>
+									</div>
 								</div>
 							</div>							
 						</div>
@@ -106,6 +121,14 @@
 	<script>
 		$(function () {
 			uiJSLayer.open('layer-electronic-push');
+
+			setTimeout(function(){
+				$('.layer-wrap.layer-electronic-push .letter').addClass('txt_ani').each(function(){
+					setTimeout(function(){
+						$('.letter.txt_ani').css('opacity','1')
+					},1200)
+				})
+			},600)
 		});
 	</script>
 	<!-- //script -->
