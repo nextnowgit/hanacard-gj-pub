@@ -36,6 +36,7 @@
 
 .banner-promotion {padding: 0 24px; margin:10px 0 25px; }
 .banner-promotion img {width:100%;}
+.banner-promotion + .page-contents {padding-top:0;}
 
 .form-detail-block.type-disabled,
 .form-detail-block.type-disabled .usage-default-etc-item,
@@ -87,8 +88,10 @@
 .ui-basic-button.type-alarm-button {
 	width: 152px;
 }
-.page-buttons.type-fixed.type-height-fix {border:none;}
+.page-buttons.type-fixed.type-no-border {border:none;}
 .type-height-fix .use-notice-item {margin-bottom:30px; }
 .type-height-fix .use-notice-item {margin-bottom:30px; }
 .type-height-fix .use-notice-item.js-accordion-opened {margin-bottom:0; }
 .type-height-fix .use-notice-area .use-notice-contents {max-height:85px; overflow-y:auto;}
+
+.padding-top-0 {padding-top:0 !important;}
