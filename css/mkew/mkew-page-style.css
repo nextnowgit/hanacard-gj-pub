@@ -58,8 +58,11 @@
 .publist-wrap .publist-list > .form-detail-item .ui-badge {position:absolute; top:0; right:0;}
 .publist-wrap .publist-list.accordion-version {padding:0;}
 .publist-wrap .publist-list.accordion-version .publist-title {padding:20px; }
-.publist-wrap .publist-list.accordion-version .publist-title > .form-detail-item {padding-right:23px; }
+.publist-wrap .publist-list.accordion-version .publist-title > .form-detail-item {position:relative; padding-right:40px; }
+.publist-wrap .publist-list.accordion-version .publist-title > .form-detail-item .ui-badge {position:absolute; top:0; right:0;}
 .publist-wrap .publist-list.accordion-version .accordion-contents {padding:20px; border-top: 1px solid var(--gray-30); background: var(--gray-20);}
+.publist-wrap .publist-list.accordion-version .accordion-contents > .form-detail-item {position:relative; padding-right:55px; }
+.publist-wrap .publist-list.accordion-version .accordion-contents > .form-detail-item .ui-badge {position:absolute; top:50%; margin-top:-13px; right:0;}
 
 
 .mkew-status-wrap .mkew-status-list {border: 1px solid var(--gray-30); border-radius: 6px; padding:20px;}
