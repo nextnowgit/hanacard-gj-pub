@@ -1,0 +1,24 @@
+/* 전자고지알림 */
+.alert-electronic-push .electronic-push {position:relative; margin:0 auto; width:100%; padding-top:100%; max-width:400px; background-image:url('../../images/gj/img-letter-push.gif'); background-position:center top; background-repeat:no-repeat; background-size:100% auto;}
+.alert-electronic-push .electronic-push .letter {position:absolute; top:40px; left:55px; right:55px; padding:24px 36px 0; opacity: 0;}
+.alert-electronic-push .electronic-push .letter .tit {font-size:1.1rem; line-height:1.4; text-align:left;}
+.alert-electronic-push .electronic-push .letter .form-detail-list {margin-top:7px;}
+.alert-electronic-push .electronic-push .letter .form-detail-item {font-size:0.9rem; margin:0; line-height:1.5; font-weight:300;}
+
+.layer-wrap.layer-electronic-push .electronic-push .letter.txt_ani{
+	animation: fadein 4s ease-in-out;
+	animation-delay:0.2s;
+}
+@keyframes fadein{
+	0%{
+		opacity: 0;
+	}
+	10%{
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	30%,100%{
+		opacity: 1;
+		transform: none;
+	}
+}
