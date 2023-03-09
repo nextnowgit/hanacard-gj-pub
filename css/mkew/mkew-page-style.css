@@ -1,7 +1,7 @@
 /* type-certificate-list */
 .type-certificate-list .ui-radio-block {position:relative; min-height:92px;}
 .type-certificate-list .ui-radio-block .ui-label {padding:0; flex-direction: column;}
-.type-certificate-list.ui-radio-group.type-grid:not(.type-grid-basic).type-col2 .ui-label {padding-top:30px; }
+.type-certificate-list.ui-radio-group.type-grid:not(.type-grid-basic).type-col2 .ui-label {padding:30px 15px 15px;  }
 .type-certificate-list .ui-radio-block .icon-gov {display:inline-block; position:absolute; top:12px; left:15px; width:40px; height:14px; background:url('../../images/mkew/logo-gov-svgType.svg') no-repeat 0; background-size:100%;}
 .type-certificate-list .ui-radio-block .icon-court {display:inline-block; position:absolute; top:12px; left:15px; width:40px; height:14px; background:url('../../images/mkew/logo-court-svgType.svg') no-repeat 0; background-size:100%;}
 
