@@ -72,3 +72,5 @@
 
 .padding-top-0 {padding-top:0 !important;}
 .padding-top-25 {padding-top:25px !important;}
+
+.button-info-link {font-size:1.7em; font-weight:500; padding-left:46px; margin-top:33px; background:url('../../images/gj/ic-guide-hand.svg') no-repeat left center; background-size:36px;}
