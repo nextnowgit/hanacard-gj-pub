@@ -68,6 +68,7 @@
 
 .mkew-status-wrap .mkew-status-list {border: 1px solid var(--gray-30); border-radius: 6px; padding:20px;}
 .mkew-status-wrap .mkew-status-list .form-detail-list {padding:25px 0 0 25px;}
+.mkew-status-wrap .mkew-status-list .mkew-status-item .basic-text {font-weight:500;}
 .mkew-status-wrap .mkew-status-list + .mkew-status-list {margin-top:10px;}
 .mkew-status-wrap .mkew-status-list.accordion-version {padding:0;}
 .mkew-status-wrap .mkew-status-list.accordion-version .mkew-status-title {padding:20px; }
