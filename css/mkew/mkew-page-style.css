@@ -45,6 +45,7 @@
 
 .mylist-wrap .mylist-list { overflow: hidden; border: 1px solid var(--gray-30); border-radius: 6px; padding:20px;}
 .mylist-wrap .mylist-list .mylist-item {width:100%;}
+.mylist-wrap .mylist-list .mylist-item .basic-text {font-weight:500;}
 .mylist-wrap .mylist-list + .mylist-list {margin-top:10px;}
 .mylist-wrap .mylist-list.accordion-version {padding:0;}
 .mylist-wrap .mylist-list.accordion-version .mylist-title {padding:20px; }
