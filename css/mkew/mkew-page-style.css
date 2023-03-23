@@ -157,3 +157,9 @@
 
 .is-text-input-focus .page-EW-main-search .ui-input-block.type-search .ui-input {border: 1px solid var(--secondary-dark); box-shadow: 1.5px 3px 5px 0 rgba(217, 223, 235, 0.3);}
 .is-text-input-focus .page-EW-main-search .ui-input-block.type-search .ui-input-search {background: url('../../images/mkew/ic-header-search-secondary-dark.svg') no-repeat 5px 50%;}
+
+.ui-checkbox-block.type-box .ui-checkbox:checked + .ui-label,
+.ui-radio-block.type-box .ui-radio:checked + .ui-label,
+.ui-checkbox-block.type-box.is-checked .ui-label,
+.ui-radio-block.type-box.is-checked .ui-label,
+.ui-radio-block.type-box a.ui-label:active {font-weight:bold;}
