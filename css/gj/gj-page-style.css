@@ -75,8 +75,12 @@
 
 .button-info-link {font-size:1.7rem; font-weight:500; padding-left:46px; margin-top:33px; background:url('../../images/gj/ic-guide-hand.svg') no-repeat left center; background-size:36px;}
 
+
+.ui-checkbox-block.type-box .ui-label,
+.ui-radio-block.type-box .ui-label {font-weight:300;}
+
 .ui-checkbox-block.type-box .ui-checkbox:checked + .ui-label,
 .ui-radio-block.type-box .ui-radio:checked + .ui-label,
 .ui-checkbox-block.type-box.is-checked .ui-label,
 .ui-radio-block.type-box.is-checked .ui-label,
-.ui-radio-block.type-box a.ui-label:active {font-weight:bold;}
+.ui-radio-block.type-box a.ui-label:active {font-weight:700;}
