@@ -33,7 +33,7 @@
 .getissue-step-info > ol > li + li {margin-top:28px;}
 
 .page-tab-panel.has-setting-btn {position:relative; padding:0 24px; background-color:#fff;}
-.icon-type-setting {position:absolute; top:50%; margin-top:-11px; right:24px; width:22px; height:22px; background:url('../../images/mkew/icon-setting.png') no-repeat 0;;}
+.icon-type-setting {position:absolute; top:50%; margin-top:-11px; right:24px; width:22px; height:22px; background:url('../../images/mkew/icon-setting.png') no-repeat 0; background-size:100% auto;}
 
 .fix-top-wrap.type-has-pagetab ~ .contents-wrap {padding-top:104px;}
 
