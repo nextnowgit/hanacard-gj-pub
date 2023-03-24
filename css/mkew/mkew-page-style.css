@@ -168,3 +168,6 @@
 .ui-checkbox-block.type-box.is-checked .ui-label,
 .ui-radio-block.type-box.is-checked .ui-label,
 .ui-radio-block.type-box a.ui-label:active {font-weight:700;}
+
+.type-certificate-list .ui-checkbox-block.type-box .ui-label,
+.type-certificate-list .ui-radio-block.type-box .ui-label {font-weight:normal;}
