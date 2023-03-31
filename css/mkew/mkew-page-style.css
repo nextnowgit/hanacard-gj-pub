@@ -158,3 +158,8 @@
 
 .is-text-input-focus .page-EW-main-search .ui-input-block.type-search .ui-input {border: 1px solid var(--secondary-dark); box-shadow: 1.5px 3px 5px 0 rgba(217, 223, 235, 0.3);}
 .is-text-input-focus .page-EW-main-search .ui-input-block.type-search .ui-input-search {background: url('../../images/mkew/ic-header-search-secondary-dark.svg') no-repeat 5px 50%;}
+
+.type-service-info-box {margin:48px 0 0; padding: 45px 8px 35px; text-align:center; background-color: #f5f5f8;}
+.type-service-info-box .service-info-pic {display:flex; flex-wrap: wrap; margin-top:10px; }
+.type-service-info-box .service-info-pic .pic {text-align: center; width:50%; margin-top:20px; }
+.type-service-info-box .service-info-pic .pic img {width:100%; margin:0 auto;}
